@@ -1,0 +1,47 @@
+{
+  "resourceType" : "Patient",
+  "id" : "ExamplePatient",
+  "meta" : {
+    "profile" : ["https://fhir.health.np/mentalhealth/StructureDefinition/mental-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient ExamplePatient</b></p><a name=\"ExamplePatient\"> </a><a name=\"hcExamplePatient\"> </a><a name=\"ExamplePatient-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mental-patient.html\">Mental Health Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">RC Poudel  Male, DoB: 2000-05-20 ( http://moh.gov.np/national-id#12345678901)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li><code>http://health.np/system-id</code>/ABC123XYZ</li><li><code>http://moh.gov.np/facility-id</code>/2082-001</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li><a href=\"tel:+9779800000000\">+9779800000000</a></li><li><a href=\"mailto:info@rcp.com.np\">info@rcp.com.np</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension to capture जाति कोड (ethnicity) based on Nepali classification\"><a href=\"StructureDefinition-ethnic-code.html\">Ethnic Code</a></td><td colspan=\"3\"><a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-1\">Ethnic Code 1</a>: 5 ब्राह्मण/क्षेत्री (५)</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/ethnic-code",
+    "valueCoding" : {
+      "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+      "code" : "1",
+      "display" : "5 ब्राह्मण/क्षेत्री (५)"
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://moh.gov.np/national-id",
+    "value" : "12345678901"
+  },
+  {
+    "system" : "http://health.np/system-id",
+    "value" : "ABC123XYZ"
+  },
+  {
+    "system" : "http://moh.gov.np/facility-id",
+    "value" : "2082-001"
+  }],
+  "name" : [{
+    "family" : "Poudel",
+    "given" : ["RC"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+9779800000000",
+    "use" : "mobile"
+  },
+  {
+    "system" : "email",
+    "value" : "info@rcp.com.np",
+    "use" : "home"
+  }],
+  "gender" : "male",
+  "birthDate" : "2000-05-20"
+}

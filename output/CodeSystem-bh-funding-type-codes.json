@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "bh-funding-type-codes",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem bh-funding-type-codes</b></p><a name=\"bh-funding-type-codes\"> </a><a name=\"hcbh-funding-type-codes\"> </a><a name=\"bh-funding-type-codes-en-US\"> </a><p>This  code system <code>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">discretionary<a name=\"bh-funding-type-codes-discretionary\"> </a></td><td>Discretionary Funding</td><td>Discretionary Funding</td></tr><tr><td style=\"white-space:nowrap\">grant-funding-type<a name=\"bh-funding-type-codes-grant-funding-type\"> </a></td><td>Grant Funding Type</td><td>Grant Funding Type</td></tr><tr><td style=\"white-space:nowrap\">funding-program-info<a name=\"bh-funding-type-codes-funding-program-info\"> </a></td><td>Program Funding Information</td><td>Program Funding Information</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+  "version" : "1.0.1",
+  "name" : "BehavioralHealthProgramFundingTypeCodes",
+  "title" : "Behavioral Health Program Funding Type Codes",
+  "status" : "draft",
+  "date" : "2025-05-18T07:55:32+05:45",
+  "publisher" : "https://rcp.com.np",
+  "contact" : [{
+    "name" : "https://rcp.com.np",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://rcp.com.np"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "discretionary",
+    "display" : "Discretionary Funding",
+    "definition" : "Discretionary Funding"
+  },
+  {
+    "code" : "grant-funding-type",
+    "display" : "Grant Funding Type",
+    "definition" : "Grant Funding Type"
+  },
+  {
+    "code" : "funding-program-info",
+    "display" : "Program Funding Information",
+    "definition" : "Program Funding Information"
+  }]
+}

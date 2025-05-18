@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.health.np/mentalhealth/Condition/example-primary-diagnosis> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-primary-diagnosis"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-condition"^^xsd:anyURI ;
+       fhir:link <https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-condition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition example-primary-diagnosis</b></p><a name=\"example-primary-diagnosis\"> </a><a name=\"hcexample-primary-diagnosis\"> </a><a name=\"example-primary-diagnosis-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mental-health-condition.html\">Primary Diagnosis Condition with any ICD-11 Mental Health Code</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:\">active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:\">confirmed</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://id.who.int/icd/release/11/mms 6A70}\">Depressive episode</span></p><p><b>subject</b>: <a href=\"Patient/example\">Patient/example</a></p><p><b>onset</b>: 2023-10-01</p><p><b>recordedDate</b>: 2023-10-02</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:code [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:verificationStatus [
+     fhir:coding ( [
+       fhir:code [ fhir:v "confirmed" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "encounter-diagnosis" ] ;
+       fhir:display [ fhir:v "Encounter Diagnosis" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://id.who.int/icd/release/11/mms"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "6A70" ] ;
+       fhir:display [ fhir:v "Depressive episode" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://fhir.health.np/mentalhealth/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ]
+  ] ; # 
+  fhir:onset [
+     a fhir:dateTime ;
+     fhir:v "2023-10-01"^^xsd:date
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2023-10-02"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

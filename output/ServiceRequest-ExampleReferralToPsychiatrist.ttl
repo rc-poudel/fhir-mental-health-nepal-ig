@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.health.np/mentalhealth/ServiceRequest/ExampleReferralToPsychiatrist> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleReferralToPsychiatrist"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral"^^xsd:anyURI ;
+       fhir:link <https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest ExampleReferralToPsychiatrist</b></p><a name=\"ExampleReferralToPsychiatrist\"> </a><a name=\"hcExampleReferralToPsychiatrist\"> </a><a name=\"ExampleReferralToPsychiatrist-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mental-health-referral.html\">Mental Health Referral</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/servicerequest-category referral}\">Referral</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 306206005}\">Referral to psychiatrist</span></p><p><b>subject</b>: <a href=\"Patient/123\">Patient/123</a></p><p><b>requester</b>: <a href=\"Practitioner/456\">Practitioner/456</a></p><p><b>performer</b>: <a href=\"Practitioner/789\">Practitioner/789</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 271327008}\">Depressive disorder</span></p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/servicerequest-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "referral" ] ;
+       fhir:display [ fhir:v "Referral" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:306206005 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "306206005" ] ;
+       fhir:display [ fhir:v "Referral to psychiatrist" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://fhir.health.np/mentalhealth/Patient/123> ;
+     fhir:reference [ fhir:v "Patient/123" ]
+  ] ; # 
+  fhir:requester [
+     fhir:link <https://fhir.health.np/mentalhealth/Practitioner/456> ;
+     fhir:reference [ fhir:v "Practitioner/456" ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:link <https://fhir.health.np/mentalhealth/Practitioner/789> ;
+     fhir:reference [ fhir:v "Practitioner/789" ]
+  ] ) ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       a sct:271327008 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "271327008" ] ;
+       fhir:display [ fhir:v "Depressive disorder" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

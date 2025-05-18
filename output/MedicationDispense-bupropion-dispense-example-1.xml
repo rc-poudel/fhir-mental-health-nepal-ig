@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationDispense xmlns="http://hl7.org/fhir">
+  <id value="bupropion-dispense-example-1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationdispense"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationDispense bupropion-dispense-example-1</b></p><a name="bupropion-dispense-example-1"> </a><a name="hcbupropion-dispense-example-1"> </a><a name="bupropion-dispense-example-1-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationdispense</code></p></div><p><b>status</b>: Completed</p><p><b>medication</b>: <span title="Codes:{http://www.nlm.nih.gov/research/umls/rxnorm 993532}">bupropion hydrochloride 200 MG</span></p><p><b>subject</b>: <a href="Patient-bh-patient-example.html">James Wolff</a></p><p><b>quantity</b>: 30 {tbl}<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{tbl} = '{tbl}')</span></p><h3>DosageInstructions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Text</b></td></tr><tr><td style="display: none">*</td><td>200 mg daily</td></tr></table></div>
+  </text>
+  <status value="completed"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+      <code value="993532"/>
+      <display value="bupropion hydrochloride 200 MG"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/bh-patient-example"/>
+    <display value="James Wolff"/>
+  </subject>
+  <quantity>
+    <value value="30"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="{tbl}"/>
+  </quantity>
+  <dosageInstruction>
+    <text value="200 mg daily"/>
+  </dosageInstruction>
+</MedicationDispense>

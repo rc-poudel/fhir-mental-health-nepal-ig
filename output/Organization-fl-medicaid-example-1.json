@@ -1,0 +1,28 @@
+{
+  "resourceType" : "Organization",
+  "id" : "fl-medicaid-example-1",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization fl-medicaid-example-1</b></p><a name=\"fl-medicaid-example-1\"> </a><a name=\"hcfl-medicaid-example-1\"> </a><a name=\"fl-medicaid-example-1-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization</code></p></div><p><b>identifier</b>: <code>urn:oid:2.16.840.1.113883.6.300</code>/55555</p><p><b>active</b>: true</p><p><b>name</b>: Florida MyACCESS - Medicaid</p><p><b>telecom</b>: ph: (+1) 734-677-7777</p><p><b>address</b>: 3300 WASHTENAW AVE STE 227 MIAMI FL 01002 USA </p></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:oid:2.16.840.1.113883.6.300",
+    "value" : "55555"
+  }],
+  "active" : true,
+  "name" : "Florida MyACCESS - Medicaid",
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "(+1) 734-677-7777"
+  }],
+  "address" : [{
+    "line" : ["3300 WASHTENAW AVE STE 227"],
+    "city" : "MIAMI",
+    "state" : "FL",
+    "postalCode" : "01002",
+    "country" : "USA"
+  }]
+}

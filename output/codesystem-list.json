@@ -1,0 +1,20 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BehavioralHealthProgramFundingTypeCodes",
+      "title" : "Behavioral Health Program Funding Type Codes",
+      "description" : null
+    },
+    {
+      "url" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "EthnicCodeCS",
+      "title" : "Ethnic Code",
+      "description" : "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"
+    }
+  ]
+}

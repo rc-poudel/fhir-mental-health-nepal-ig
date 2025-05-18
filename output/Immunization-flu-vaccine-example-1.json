@@ -1,0 +1,30 @@
+{
+  "resourceType" : "Immunization",
+  "id" : "flu-vaccine-example-1",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|7.0.0"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Immunization flu-vaccine-example-1</b></p><a name=\"flu-vaccine-example-1\"> </a><a name=\"hcflu-vaccine-example-1\"> </a><a name=\"flu-vaccine-example-1-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|7.0.0</code></p></div><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/cvx 168}, {http://hl7.org/fhir/sid/ndc 49281012165}\">Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free</span></p><p><b>patient</b>: <a href=\"Patient-bh-patient-example.html\">James Wolff</a></p><p><b>occurrence</b>: 2023-11-19 12:46:57-0800</p></div>"
+  },
+  "status" : "completed",
+  "vaccineCode" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/sid/cvx",
+      "code" : "168",
+      "display" : "Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/ndc",
+      "code" : "49281012165",
+      "display" : "FLUZONE High-Dose Quadrivalent Northern Hemisphere, 10 SYRINGE, GLASS in 1 PACKAGE (49281-121-65) > .7 mL in 1 SYRINGE, GLASS (49281-121-88) (package)"
+    }],
+    "text" : "Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free"
+  },
+  "patient" : {
+    "reference" : "Patient/bh-patient-example",
+    "display" : "James Wolff"
+  },
+  "occurrenceDateTime" : "2023-11-19T12:46:57-08:00"
+}

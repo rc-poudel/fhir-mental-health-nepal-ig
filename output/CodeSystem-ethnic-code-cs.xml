@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ethnic-code-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ethnic-code-cs</b></p><a name="ethnic-code-cs"> </a><a name="hcethnic-code-cs"> </a><a name="ethnic-code-cs-en-US"> </a><p>This  code system <code>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="ethnic-code-cs-1"> </a></td><td>1 दलित (१)</td></tr><tr><td style="white-space:nowrap">2<a name="ethnic-code-cs-2"> </a></td><td>2 जनजाती (२)</td></tr><tr><td style="white-space:nowrap">3<a name="ethnic-code-cs-3"> </a></td><td>3 मधेसी (३)</td></tr><tr><td style="white-space:nowrap">4<a name="ethnic-code-cs-4"> </a></td><td>4 मुस्लिम (४)</td></tr><tr><td style="white-space:nowrap">5<a name="ethnic-code-cs-5"> </a></td><td>5 ब्राह्मण/क्षेत्री (५)</td></tr><tr><td style="white-space:nowrap">6<a name="ethnic-code-cs-6"> </a></td><td>6 अन्य (६)</td></tr></table></div>
+  </text>
+  <url value="https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs"/>
+  <version value="1.0.1"/>
+  <name value="EthnicCodeCS"/>
+  <title value="Ethnic Code"/>
+  <status value="active"/>
+  <date value="2025-05-18T07:55:32+05:45"/>
+  <publisher value="https://rcp.com.np"/>
+  <contact>
+    <name value="https://rcp.com.np"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://rcp.com.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+      <display value="Nepal"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="1"/>
+    <display value="1 दलित (१)"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="2 जनजाती (२)"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="3 मधेसी (३)"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="4 मुस्लिम (४)"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="5 ब्राह्मण/क्षेत्री (५)"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="6 अन्य (६)"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ethnic-code-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethnic-code-cs</b></p><a name=\"ethnic-code-cs\"> </a><a name=\"hcethnic-code-cs\"> </a><a name=\"ethnic-code-cs-en-US\"> </a><p>This  code system <code>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ethnic-code-cs-1\"> </a></td><td>1 दलित (१)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ethnic-code-cs-2\"> </a></td><td>2 जनजाती (२)</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ethnic-code-cs-3\"> </a></td><td>3 मधेसी (३)</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ethnic-code-cs-4\"> </a></td><td>4 मुस्लिम (४)</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"ethnic-code-cs-5\"> </a></td><td>5 ब्राह्मण/क्षेत्री (५)</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"ethnic-code-cs-6\"> </a></td><td>6 अन्य (६)</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "EthnicCodeCS"] ; # 
+  fhir:title [ fhir:v "Ethnic Code"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-05-18T07:55:32+05:45"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "https://rcp.com.np"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "https://rcp.com.np" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://rcp.com.np" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "RC Poudel" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "rmchndrapdl@gmail.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NP" ] ;
+       fhir:display [ fhir:v "Nepal" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "Used by permission of HL7 International, all rights reserved Creative Commons License"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "1 दलित (१)" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "2 जनजाती (२)" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "3 मधेसी (३)" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "4 मुस्लिम (४)" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "5 ब्राह्मण/क्षेत्री (५)" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "6 अन्य (६)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

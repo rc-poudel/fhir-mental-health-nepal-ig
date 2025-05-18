@@ -1,0 +1,155 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.health.np/mentalhealth/Patient/bh-patient-example> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "bh-patient-example"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient bh-patient-example</b></p><a name=\"bh-patient-example\"> </a><a name=\"hcbh-patient-example\"> </a><a name=\"bh-patient-example-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient</code></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">James Wolff  Male, DoB: 1961-07-16 ( Medical Record Number: 1032702 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td>true</td><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td colspan=\"3\">false</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Alternate names (see the one above)\">Alt. Name:</td><td colspan=\"3\">Jennifer Wolff (Official)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 555-555-5555(Home)</li><li><a href=\"mailto:james.wolff@example.com\">james.wolff@example.com</a></li><li>49 MEADOW ST MIAMI FL 74047 US (old)</li><li>183 MOUNTAIN VIEW ST MIAMI FL 74048 US </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{urn:ietf:bcp:47 en}\">English</span> (preferred)</td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"^^xsd:anyURI ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "ombCategory"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2054-5" ] ;
+         fhir:display [ fhir:v "Black or African American" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "text"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Black or African American"
+       ]
+     ] )
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"^^xsd:anyURI ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "ombCategory"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2186-5" ] ;
+         fhir:display [ fhir:v "Not Hispanic or Latino" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "text"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Not Hispanic or Latino"
+       ]
+     ] )
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "M"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "248153007"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/military-service/StructureDefinition/military-service-veteran-status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:boolean ;
+       fhir:v true
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:boolean ;
+       fhir:v false
+     ]
+  ] ) ; #  Race 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "Medical Record Number" ]
+       ] ) ;
+       fhir:text [ fhir:v "Medical Record Number" ]
+     ] ;
+     fhir:system [ fhir:v "http://hospital.smarthealthit.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1032702" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Wolff" ] ;
+     fhir:given ( [ fhir:v "Jennifer" ] )
+  ] [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:family [ fhir:v "Wolff" ] ;
+     fhir:given ( [ fhir:v "James" ] ) ;
+     fhir:period [
+       fhir:start [ fhir:v "2016-07-22"^^xsd:date ]
+     ]
+  ] ) ; #  Legal name 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "555-555-5555" ] ;
+     fhir:use [ fhir:v "home" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "james.wolff@example.com" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; #  Administrative Gender, used for administrative purposes 
+  fhir:birthDate [ fhir:v "1961-07-16"^^xsd:date] ; # 
+  fhir:deceased [
+     a fhir:boolean ;
+     fhir:v false
+  ] ; # 
+  fhir:address ( [
+     fhir:use [ fhir:v "old" ] ;
+     fhir:line ( [ fhir:v "49 MEADOW ST" ] ) ;
+     fhir:city [ fhir:v "MIAMI" ] ;
+     fhir:state [ fhir:v "FL" ] ;
+     fhir:postalCode [ fhir:v "74047" ] ;
+     fhir:country [ fhir:v "US" ] ;
+     fhir:period [
+       fhir:start [ fhir:v "2016-12-06"^^xsd:date ] ;
+       fhir:end [ fhir:v "2020-07-22"^^xsd:date ]
+     ]
+  ] [
+     fhir:line ( [ fhir:v "183 MOUNTAIN VIEW ST" ] ) ;
+     fhir:city [ fhir:v "MIAMI" ] ;
+     fhir:state [ fhir:v "FL" ] ;
+     fhir:postalCode [ fhir:v "74048" ] ;
+     fhir:country [ fhir:v "US" ] ;
+     fhir:period [
+       fhir:start [ fhir:v "2020-07-22"^^xsd:date ]
+     ]
+  ] ) ; # 
+  fhir:communication ( [
+     fhir:language [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "en" ] ;
+         fhir:display [ fhir:v "English" ]
+       ] ) ;
+       fhir:text [ fhir:v "English" ]
+     ] ;
+     fhir:preferred [ fhir:v true ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

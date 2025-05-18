@@ -1,0 +1,651 @@
+FHIRMentalHealthIG : Validation Results
+=========================================
+
+err = 191, warn = 232, info = 32
+$--
+Generated $--. FHIR version $-- for mentalhealth.fhir.ig#$-- (canonical = https://fhir.health.np/mentalhealth)
+ Build Errors : 8 / 82 / 0
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/CodeSystem-ethnic-code-cs : 0 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Condition-example-primary-diagnosis : 5 / 3 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ImplementationGuide-mentalhealth.fhir.ig : 0 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Patient-ExamplePatient : 2 / 3 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ServiceRequest-ExampleReferralToPsychiatrist : 9 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-ethnic-code : 0 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-health-condition : 4 / 4 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-health-referral : 0 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-patient : 0 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ValueSet-ethnic-code-vs : 0 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/BHP-QuestionnaireResponsePRAPAREExample-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/C-SSRS-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/SDOHCC-ConsentInformationDisclosure-example-1 : 2 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ServiceRequest-peer-mentoring-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ace-example-1 : 1 / 3 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/adult-child-relatedperson-example-1 : 2 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/alcohol-prevetion-education-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/alcohol-use-identification-test-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/anxiety-assessment-observation-example-1 : 3 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ativan-discharge-med-example-1 : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/average-blood-pressure-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/barthel-index-functional-status-example-1 : 22 / 19 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/benzo-medication-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/benzo-order-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-care-team-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-funding-type-codes : 6 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-funding-types : 5 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-grant-info-observation-example-1 : 5 / 1 / 4
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-patient-example : 13 / 2 / 3
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-prevention-education-program-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/blood-pressure-example-1 : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bupropion-discharge-med-example-1 : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bupropion-dispense-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/chest-pain-condition-example-1 : 3 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/cognitive-status-observation-example-3 : 2 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/depression-condition-example-1 : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/diabetes-condition-example-1 : 3 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/disability-status-observation-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/discharge-encounter-example-3 : 2 / 3 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ed-encounter-example-1 : 1 / 3 / 4
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ed-location-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ed-physician-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ekg-impression-report-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/ekg-observation-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/expansion-parameters-bhir : 0 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/fall-adverse-event-example-1 : 0 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/fl-medicaid-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/flu-vaccine-example-1 : 2 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/food-insecurity-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/grief-condition-example-1 : 3 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/hark-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/harm-reduction-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/heart-rate-example-1 : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/height-example-1 : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/hemoglobin-a1c-example-1 : 2 / 4 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/housing-insecurity-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/medicaid-coverage-example-1 : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-clinical-note-types : 5 / 0 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-consult-note-example-1 : 2 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-discharge-summary-example-1 : 2 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-hx-physical-example-1 : 2 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-procedure-example-1 : 3 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-progress-example-1 : 3 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-provider-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/metformin-discharge-med-example-1 : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mh-provider-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/no-morphine-preference-observation-example-1 : 2 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/non-smoker-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/obs-encounter-example-2 : 2 / 3 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/obs-location-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/oxygen-saturation-example-1 : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/panic-attack-condition-example-1 : 2 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/paroxetine-discharge-med-example-1 : 7 / 1 / 3
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/pcp-encounter-example-4 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/pcp-provider-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/peanut-allergy-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/penicillin-allergy-example-1 : 2 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/phq-9-example-1 : 2 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/pregnancy-status-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/program-info : 3 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/provider-preference-observation-example-2 : 1 / 1 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/respiratory-rate-example-1 : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/sexual-orientation-example-1 : 1 / 2 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/social-connection-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/substance-abuse-condition-example-1 : 2 / 1 / 3
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/temperature-example-1 : 1 / 2 / 2
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/transportation-insecurity-example-1 : 1 / 1 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/usual-work-example-1 : 1 / 4 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/weight-example-1 : 1 / 2 / 2
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/program-info.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/bh-funding-types.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/mental-health-clinical-note-types.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/bh-funding-type-codes.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/C-SSRS-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CareTeam/bh-care-team-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/mh-provider-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/fl-medicaid-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/SDOHCC-ConsentInformationDisclosure-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/ServiceRequest-peer-mentoring-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/ace-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/adult-child-relatedperson-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/alcohol-prevetion-education-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/alcohol-use-identification-test-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/anxiety-assessment-observation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/ativan-discharge-med-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/average-blood-pressure-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/barthel-index-functional-status-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/benzo-medication-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/benzo-order-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/bh-grant-info-observation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/bh-patient-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/bh-prevention-education-program-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/blood-pressure-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/bupropion-discharge-med-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/bupropion-dispense-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/chest-pain-condition-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/cognitive-status-observation-example-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/depression-condition-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/diabetes-condition-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/disability-status-observation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/discharge-encounter-example-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/ed-encounter-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/ed-physician-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DiagnosticReport/ekg-impression-report-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ekg-observation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Parameters/expansion-parameters-bhir.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AdverseEvent/fall-adverse-event-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Immunization/flu-vaccine-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Goal/food-insecurity-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/grief-condition-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/hark-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/harm-reduction-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/heart-rate-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/height-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/hemoglobin-a1c-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Goal/housing-insecurity-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Coverage/medicaid-coverage-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentReference/mental-health-consult-note-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentReference/mental-health-discharge-summary-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentReference/mental-health-hx-physical-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentReference/mental-health-procedure-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource DocumentReference/mental-health-progress-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/mental-health-provider-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/metformin-discharge-med-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/no-morphine-preference-observation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/non-smoker-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/obs-encounter-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/oxygen-saturation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/panic-attack-condition-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/paroxetine-discharge-med-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Encounter/pcp-encounter-example-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/pcp-provider-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/peanut-allergy-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/penicillin-allergy-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource QuestionnaireResponse/phq-9-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/pregnancy-status-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/provider-preference-observation-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/respiratory-rate-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/sexual-orientation-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Goal/social-connection-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/substance-abuse-condition-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/temperature-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Goal/transportation-insecurity-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/usual-work-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/weight-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing package/DocumentReference-mental-health-consult-note-example-1.json: Invalid date/time string (datatype InstantType does not support DAY precision): 2024-01-01
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/Condition-example-primary-diagnosis.html#/html/body/div/div/div/div/div/div/p/a at Line 219, column 1040: The link 'Patient/example' for "Patient/example" cannot be resolved
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/MedicationRequest-paroxetine-discharge-med-example-1.html#/html/body/div/div/div/div/div/div/div/p/a at Line 230, column 57: The link 'StructureDefinition-us-core-medicationrequest.html' for "US Core MedicationRequest Profile (version 7.0.0)" cannot be resolved
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/MedicationRequest-paroxetine-discharge-med-example-1.html#/html/body/div/div/div/div/div/div/p/span/a at Line 273, column 166: The link 'http://terminology.hl7.org/5.3.0/CodeSystem-v3-rxNorm.html' for "RxNorm" cannot be resolved
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/Observation-bh-grant-info-observation-example-1.html#/html/body/div/div/div/div/div/div/div/p/a at Line 229, column 57: The link 'StructureDefinition-bh-grant-info.html' for "Grant Information Observation Profile" cannot be resolved
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/ServiceRequest-ExampleReferralToPsychiatrist.html#/html/body/div/div/div/div/div/div/p/a at Line 219, column 920: The link 'Patient/123' for "Patient/123" cannot be resolved
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/ServiceRequest-ExampleReferralToPsychiatrist.html#/html/body/div/div/div/div/div/div/p/a at Line 219, column 982: The link 'Practitioner/456' for "Practitioner/456" cannot be resolved
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/output/ServiceRequest-ExampleReferralToPsychiatrist.html#/html/body/div/div/div/div/div/div/p/a at Line 219, column 1054: The link 'Practitioner/789' for "Practitioner/789" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+== fsh-generated/resources/CodeSystem-ethnic-code-cs.json ==
+INFORMATION: CodeSystem/ethnic-code-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/ethnic-code-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/ethnic-code-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/Condition-example-primary-diagnosis.json ==
+WARNING: Condition/example-primary-diagnosis: Condition.clinicalStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Condition/example-primary-diagnosis: Condition.clinicalStatus: None of the codings provided are in the value set 'Condition Clinical Status Codes' (http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1), and a coding from this value set is required) (codes = null#active)
+WARNING: Condition/example-primary-diagnosis: Condition.verificationStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: Condition/example-primary-diagnosis: Condition.verificationStatus: None of the codings provided are in the value set 'ConditionVerificationStatus' (http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1), and a coding from this value set is required) (codes = null#confirmed)
+ERROR: Condition/example-primary-diagnosis: Condition.code: Found a reference to a CodeSystem 'http://id.who.int/icd/release/11/mms' where a ValueSet belongs
+WARNING: Condition/example-primary-diagnosis: Condition.code.coding[0].system: A definition for CodeSystem 'http://id.who.int/icd/release/11/mms' could not be found, so the code cannot be validated
+ERROR: Condition/example-primary-diagnosis: Condition.subject: Unable to resolve resource with reference 'Patient/example'
+ERROR: Condition.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
+== fsh-generated/resources/ImplementationGuide-mentalhealth.fhir.ig.json ==
+== fsh-generated/resources/Patient-ExamplePatient.json ==
+ERROR: Patient/ExamplePatient: Patient.extension[0].value.ofType(Coding).display: Wrong Display Name '5 ब्राह्मण/क्षेत्री (५)' for https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs#1. Valid display is '1 दलित (१)' (for the language(s) 'en-US')
+ERROR: Patient/ExamplePatient: Patient.extension[0].value.ofType(Coding): The Coding provided (https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs#1) was not found in the value set 'Ethnic Code ValueSet' (https://fhir.health.np/mentalhealth/ValueSet/ethnic-code-vs|1.0.1), and a code is required from this value set.  (error message = Wrong Display Name '5 ब्राह्मण/क्षेत्री (५)' for https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs#1. Valid display is '1 दलित (१)' (for the language(s) 'en-US'))
+WARNING: Patient/ExamplePatient: Patient.identifier[0].system: URL value 'http://moh.gov.np/national-id' does not resolve
+WARNING: Patient/ExamplePatient: Patient.identifier[1].system: URL value 'http://health.np/system-id' does not resolve
+WARNING: Patient/ExamplePatient: Patient.identifier[2].system: URL value 'http://moh.gov.np/facility-id' does not resolve
+== fsh-generated/resources/ServiceRequest-ExampleReferralToPsychiatrist.json ==
+WARNING: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.category[0].coding[0].system: A definition for CodeSystem 'http://terminology.hl7.org/CodeSystem/servicerequest-category' could not be found, so the code cannot be validated
+ERROR: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.category[0].coding[0].system: URL value 'http://terminology.hl7.org/CodeSystem/servicerequest-category' does not resolve
+ERROR: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.code.coding[0].display: Wrong Display Name 'Referral to psychiatrist' for http://snomed.info/sct#306206005. There are no valid display names found for language(s) 'en-US'. Default display is 'Referral to service'
+ERROR: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/123'
+ERROR: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.requester: Unable to resolve resource with reference 'Practitioner/456'
+ERROR: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.performer[0]: Unable to resolve resource with reference 'Practitioner/789'
+ERROR: ServiceRequest/ExampleReferralToPsychiatrist: ServiceRequest.reasonCode[0].coding[0].display: Wrong Display Name 'Depressive disorder' for http://snomed.info/sct#271327008. There are no valid display names found for language(s) 'en-US'. Default display is 'Hypoglycaemic syndrome'
+ERROR: ServiceRequest.text.div: Hyperlink 'Patient/123' at 'div/p/a' for 'Patient/123' does not resolve
+ERROR: ServiceRequest.text.div: Hyperlink 'Practitioner/456' at 'div/p/a' for 'Practitioner/456' does not resolve
+ERROR: ServiceRequest.text.div: Hyperlink 'Practitioner/789' at 'div/p/a' for 'Practitioner/789' does not resolve
+== fsh-generated/resources/StructureDefinition-ethnic-code.json ==
+WARNING: StructureDefinition/ethnic-code: StructureDefinition.context[0]: Review the extension type for ethnic-code: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-mental-health-condition.json ==
+INFORMATION: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[10].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[11].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[25].binding.valueSet: Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+WARNING: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+WARNING: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+ERROR: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[8].binding.valueSet: Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
+ERROR: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[8].binding: The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[25].binding: The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)
+== fsh-generated/resources/StructureDefinition-mental-health-referral.json ==
+== fsh-generated/resources/StructureDefinition-mental-patient.json ==
+== fsh-generated/resources/ValueSet-ethnic-code-vs.json ==
+WARNING: ValueSet/ethnic-code-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== input/resources/BHP-QuestionnaireResponsePRAPAREExample-1.xml ==
+ERROR: QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse' does not resolve
+ERROR: QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-QuestionnairePRAPARE' does not resolve
+WARNING: QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/sdoh-clinicalcare/Questionnaire/SDOHCC-QuestionnairePRAPARE' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/C-SSRS-example-1.xml ==
+ERROR: QuestionnaireResponse/C-SSRS-example-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' does not resolve
+ERROR: QuestionnaireResponse/C-SSRS-example-1: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/core/Questionnaire/c-ssrs-example' does not resolve
+WARNING: QuestionnaireResponse/C-SSRS-example-1: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/core/Questionnaire/c-ssrs-example' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/C-SSRS-example-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/SDOHCC-ConsentInformationDisclosure-example-1.xml ==
+ERROR: Consent.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
+ERROR: Consent/SDOHCC-ConsentInformationDisclosure-example-1: Consent.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent' does not resolve
+WARNING: Consent/SDOHCC-ConsentInformationDisclosure-example-1: Consent.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ServiceRequest-peer-mentoring-example-1.xml ==
+ERROR: ServiceRequest/ServiceRequest-peer-mentoring-example-1: ServiceRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-ServiceRequest' does not resolve
+WARNING: ServiceRequest/ServiceRequest-peer-mentoring-example-1: ServiceRequest.category[1].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes' could not be found, so the code cannot be validated
+ERROR: ServiceRequest/ServiceRequest-peer-mentoring-example-1: ServiceRequest.category[1].coding[0].system: URL value 'http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes' does not resolve
+WARNING: ServiceRequest/ServiceRequest-peer-mentoring-example-1: ServiceRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-ServiceRequest' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ace-example-1.xml ==
+ERROR: QuestionnaireResponse/ace-example-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' does not resolve
+WARNING: QuestionnaireResponse/ace-example-1: QuestionnaireResponse.questionnaire: Canonical URL 'https://www.acesaware.org/wp-content/uploads/2022/07/ACE-Questionnaire-for-Adults-Identified-English-rev.7.26.22.pdf' does not resolve
+WARNING: QuestionnaireResponse/ace-example-1: QuestionnaireResponse: The questionnaire 'https://www.acesaware.org/wp-content/uploads/2022/07/ACE-Questionnaire-for-Adults-Identified-English-rev.7.26.22.pdf' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/ace-example-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/adult-child-relatedperson-example-1.xml ==
+ERROR: RelatedPerson/adult-child-relatedperson-example-1: RelatedPerson.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson|7.0.0' does not resolve
+ERROR: RelatedPerson/adult-child-relatedperson-example-1: RelatedPerson.relationship[0].coding[0].code: Unknown code 'child' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-RoleCode' version '3.0.0'
+INFORMATION: RelatedPerson/adult-child-relatedperson-example-1: RelatedPerson.relationship[0]: None of the codings provided are in the value set 'Patient relationship type' (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype|4.0.1), and a coding is recommended to come from this value set (codes = http://terminology.hl7.org/CodeSystem/v3-RoleCode#child)
+WARNING: RelatedPerson/adult-child-relatedperson-example-1: RelatedPerson.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/alcohol-prevetion-education-example-1.xml ==
+ERROR: Procedure/alcohol-prevetion-education-example-1: Procedure.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure' does not resolve
+WARNING: Procedure/alcohol-prevetion-education-example-1: Procedure.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/alcohol-use-identification-test-1.xml ==
+ERROR: QuestionnaireResponse/alcohol-use-identification-test-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' does not resolve
+ERROR: QuestionnaireResponse/alcohol-use-identification-test-1: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/core/Questionnaire/AUDIT-C' does not resolve
+WARNING: QuestionnaireResponse/alcohol-use-identification-test-1: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/core/Questionnaire/AUDIT-C' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/alcohol-use-identification-test-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/anxiety-assessment-observation-example-1.xml ==
+ERROR: Observation/anxiety-assessment-observation-example-1: Observation.value.ofType(CodeableConcept): As specified by profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1, Element 'valueCodeableConcept' is out of order (found after component)
+ERROR: Observation/anxiety-assessment-observation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+ERROR: Observation/anxiety-assessment-observation-example-1: Observation.component[0].code.coding[0].display: Wrong Display Name 'I have attacks of anxiety or panic' for http://loinc.org#71816-3. Valid display is one of 2 choices: 'I have attacks of anxiety or panic since I took my last screen [M3]' (en-US) or 'I have attacks of anxiety or panic since I took my last screen [M3]' (en-US) (for the language(s) 'en-US')
+WARNING: Observation/anxiety-assessment-observation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ativan-discharge-med-example-1.xml ==
+ERROR: MedicationRequest/ativan-discharge-med-example-1: MedicationRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' does not resolve
+INFORMATION: MedicationRequest/ativan-discharge-med-example-1: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+WARNING: MedicationRequest/ativan-discharge-med-example-1: MedicationRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/average-blood-pressure-example-1.xml ==
+ERROR: Observation/average-blood-pressure-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure|7.0.0' does not resolve
+WARNING: Observation/average-blood-pressure-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/average-blood-pressure-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-average-blood-pressure|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/barthel-index-functional-status-example-1.xml ==
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' does not resolve
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.text.div: The URL is not valid because '(URL contains 21 Invalid Characters: ' ')': https://loinc.org/LA12302-8                     
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.text.div: The URL is not valid because '(URL contains 21 Invalid Characters: ' ')': https://loinc.org/LA31644-0                     
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.text.div: The URL is not valid because '(URL contains 21 Invalid Characters: ' ')': https://loinc.org/LA31632-5                     
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.text.div: The URL is not valid because '(URL contains 21 Invalid Characters: ' ')': https://loinc.org/LA31636-6                     
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.text.div: The URL is not valid because '(URL contains 21 Invalid Characters: ' ')': https://loinc.org/LA31638-2                     
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/core/Questionnaire/barthel-index-panel' does not resolve
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding).code: Unknown code 'LA12302-8                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding).code: The code 'LA12302-8                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[0].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent                     '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[1].linkId: value should not start or finish with whitespace '/83185-9             '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[1].text: value should not start or finish with whitespace 'Transferring ability             '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding).code: Unknown code 'LA12302-8                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding).code: The code 'LA12302-8                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent                     '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[2].linkId: value should not start or finish with whitespace '/83185-9             '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding).code: Unknown code 'LA31644-0                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding).code: The code 'LA31644-0                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent face/hair/teeth/shaving (implements provided)                     '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[3].answer[0].value.ofType(Coding).code: Unknown code 'LA31632-5                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[3].answer[0].value.ofType(Coding).code: The code 'LA31632-5                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[3].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent (on and off, dressing, wiping)                     '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[4].linkId: value should not start or finish with whitespace '/83181-8             '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[4].text: value should not start or finish with whitespace 'Bathing ability             '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[4].answer[0].value.ofType(Coding).code: Unknown code 'LA31636-6                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[4].answer[0].value.ofType(Coding).code: The code 'LA31636-6                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[4].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent (or in shower)                     '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[5].linkId: value should not start or finish with whitespace '/83186-7             '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[5].text: value should not start or finish with whitespace 'Ambulation ability             '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[5].answer[0].value.ofType(Coding).display: Wrong whitespace in Display Name 'Independent (but may use any aid; for example, stick) >50 yards                     ' for http://loinc.org#LA31642-4. Valid display is 'Independent (but may use any aid; for example, stick) >50 yards' (en-US) (for the language(s) 'en-US')
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[5].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent (but may use any aid; for example, stick) >50 yards                     '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[6].answer[0].value.ofType(Coding).code: Unknown code 'LA12302-8                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[6].answer[0].value.ofType(Coding).code: The code 'LA12302-8                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[6].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent                     '
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[7].answer[0].value.ofType(Coding).code: Unknown code 'LA31638-2                     ' in the CodeSystem 'http://loinc.org' version '2.80'
+ERROR: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[7].answer[0].value.ofType(Coding).code: The code 'LA31638-2                     ' is not valid (whitespace rules)
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[7].answer[0].value.ofType(Coding).display: value should not start or finish with whitespace 'Independent (including buttons, zips, laces, etc.)                     '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[8].linkId: value should not start or finish with whitespace '/96759-6             '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.item[8].text: value should not start or finish with whitespace 'Bowel control ability             '
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/core/Questionnaire/barthel-index-panel' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/barthel-index-functional-status-example-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/benzo-medication-example-1.xml ==
+ERROR: Medication/benzo-medication-example-1: Medication.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication' does not resolve
+WARNING: Medication/benzo-medication-example-1: Medication.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/benzo-order-example-1.xml ==
+ERROR: MedicationRequest/benzo-order-example-1: MedicationRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' does not resolve
+WARNING: MedicationRequest/benzo-order-example-1: MedicationRequest.identifier[0].system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.798' does not resolve
+WARNING: MedicationRequest/benzo-order-example-1: MedicationRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/bh-care-team-example-1.xml ==
+ERROR: CareTeam/bh-care-team-example-1: CareTeam.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam' does not resolve
+WARNING: CareTeam/bh-care-team-example-1: CareTeam.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-careteam' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/bh-funding-type-codes.xml ==
+ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes'): Conformance resource /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-funding-type-codes.xml - the canonical URL (https://fhir.health.np/mentalhealth/CodeSystem/bh-funding-type-codes) does not match the URL (http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes)
+ERROR: CodeSystem/bh-funding-type-codes: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+INFORMATION: CodeSystem/bh-funding-type-codes: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+WARNING: CodeSystem/bh-funding-type-codes: CodeSystem: HL7 Defined CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+ERROR: CodeSystem/bh-funding-type-codes: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: CodeSystem/bh-funding-type-codes: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+ERROR: CodeSystem/bh-funding-type-codes: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-funding-type-codes: URL Mismatch https://fhir.health.np/mentalhealth/CodeSystem/bh-funding-type-codes vs http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes
+== input/resources/bh-funding-types.xml ==
+ERROR: ValueSet.where(url = 'http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types'): Conformance resource /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-funding-types.xml - the canonical URL (https://fhir.health.np/mentalhealth/ValueSet/bh-funding-types) does not match the URL (http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types)
+ERROR: ValueSet/bh-funding-types: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: ValueSet/bh-funding-types: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet/bh-funding-types: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/bh-funding-types: URL Mismatch https://fhir.health.np/mentalhealth/ValueSet/bh-funding-types vs http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types
+== input/resources/bh-grant-info-observation-example-1.xml ==
+ERROR: Observation.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
+ERROR: Observation/bh-grant-info-observation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/bhp/StructureDefinition/bh-grant-info' does not resolve
+ERROR: Observation/bh-grant-info-observation-example-1: Observation.extension[0]: The extension http://hl7.org/fhir/us/bhp/StructureDefinition/bh-grant-info could not be found so is not allowed here
+ERROR: Observation/bh-grant-info-observation-example-1: Observation.extension[0].url: URL value 'http://hl7.org/fhir/us/bhp/StructureDefinition/bh-grant-info' does not resolve
+INFORMATION: Observation/bh-grant-info-observation-example-1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes#funding-program-info)
+INFORMATION: Observation/bh-grant-info-observation-example-1: Observation.code: Reference to draft CodeSystem http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes|1.0.1
+INFORMATION: Observation/bh-grant-info-observation-example-1: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes|1.0.1
+WARNING: Observation/bh-grant-info-observation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/bhp/StructureDefinition/bh-grant-info' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Observation.text.div: Hyperlink 'StructureDefinition-bh-grant-info.html' at 'div/div/p/a' for 'Grant Information Observation
+                        Profile' does not resolve
+== input/resources/bh-patient-example.xml ==
+ERROR: Patient/bh-patient-example: Patient.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient' does not resolve
+ERROR: Patient/bh-patient-example: Patient.extension[0]: The extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-race could not be found so is not allowed here
+ERROR: Patient/bh-patient-example: Patient.extension[0].url: URL value 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-race' does not resolve
+INFORMATION: Patient/bh-patient-example: Patient.extension[0].extension[0].value.ofType(Coding): The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
+ERROR: Patient/bh-patient-example: Patient.extension[1]: The extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity could not be found so is not allowed here
+ERROR: Patient/bh-patient-example: Patient.extension[1].url: URL value 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity' does not resolve
+INFORMATION: Patient/bh-patient-example: Patient.extension[1].extension[0].value.ofType(Coding): The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
+ERROR: Patient/bh-patient-example: Patient.extension[2]: The extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex could not be found so is not allowed here
+ERROR: Patient/bh-patient-example: Patient.extension[2].url: URL value 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex' does not resolve
+ERROR: Patient/bh-patient-example: Patient.extension[3]: The extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex could not be found so is not allowed here
+ERROR: Patient/bh-patient-example: Patient.extension[3].url: URL value 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex' does not resolve
+ERROR: Patient/bh-patient-example: Patient.extension[4]: The extension http://hl7.org/fhir/us/military-service/StructureDefinition/military-service-veteran-status could not be found so is not allowed here
+ERROR: Patient/bh-patient-example: Patient.extension[4].url: URL value 'http://hl7.org/fhir/us/military-service/StructureDefinition/military-service-veteran-status' does not resolve
+ERROR: Patient/bh-patient-example: Patient.extension[5]: The extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation could not be found so is not allowed here
+ERROR: Patient/bh-patient-example: Patient.extension[5].url: URL value 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation' does not resolve
+WARNING: Patient/bh-patient-example: Patient.identifier[0].system: URL value 'http://hospital.smarthealthit.org' does not resolve
+WARNING: Patient/bh-patient-example: Patient.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/bh-prevention-education-program-example-1.xml ==
+ERROR: Procedure/bh-prevention-education-program-example-1: Procedure.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure' does not resolve
+WARNING: Procedure/bh-prevention-education-program-example-1: Procedure.code.coding[0].system: A definition for CodeSystem 'https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets' could not be found, so the code cannot be validated
+WARNING: Procedure/bh-prevention-education-program-example-1: Procedure.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/blood-pressure-example-1.xml ==
+ERROR: Observation/blood-pressure-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure|7.0.0' does not resolve
+WARNING: Observation/blood-pressure-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/blood-pressure-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-blood-pressure|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/bupropion-discharge-med-example-1.xml ==
+ERROR: MedicationRequest/bupropion-discharge-med-example-1: MedicationRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' does not resolve
+INFORMATION: MedicationRequest/bupropion-discharge-med-example-1: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+WARNING: MedicationRequest/bupropion-discharge-med-example-1: MedicationRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/bupropion-dispense-example-1.xml ==
+ERROR: MedicationDispense/bupropion-dispense-example-1: MedicationDispense.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationdispense' does not resolve
+WARNING: MedicationDispense/bupropion-dispense-example-1: MedicationDispense.quantity: UCUM Codes that contain human readable annotations like {tbl} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked, and the Quantity.unit SHOULD contain the annotation
+WARNING: MedicationDispense/bupropion-dispense-example-1: MedicationDispense.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationdispense' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/chest-pain-condition-example-1.xml ==
+ERROR: Condition/chest-pain-condition-example-1: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' does not resolve
+INFORMATION: Condition/chest-pain-condition-example-1: Condition.verificationStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1 from hl7.fhir.r4.core#4.0.1
+ERROR: Condition/chest-pain-condition-example-1: Condition.code.coding[0].display: Wrong Display Name ' Chest pain (finding)' for http://snomed.info/sct#29857009. There are no valid display names found for language(s) 'en-US'. Default display is 'Chest pain'
+WARNING: Condition/chest-pain-condition-example-1: Condition.code.coding[0].display: value should not start or finish with whitespace ' Chest pain (finding)'
+ERROR: Condition/chest-pain-condition-example-1: Condition: Constraint failed: con-4: 'If condition is abated, then clinicalStatus must be either inactive, resolved, or remission'
+WARNING: Condition/chest-pain-condition-example-1: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/cognitive-status-observation-example-3.xml ==
+ERROR: Observation/cognitive-status-observation-example-3: Observation.value.ofType(integer): As specified by profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1, Element 'valueInteger' is out of order (found after component)
+ERROR: Observation/cognitive-status-observation-example-3: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+INFORMATION: Observation/cognitive-status-observation-example-3: Observation.category[1]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#cognitive-status)
+WARNING: Observation/cognitive-status-observation-example-3: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/depression-condition-example-1.xml ==
+ERROR: Condition/depression-condition-example-1: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' does not resolve
+INFORMATION: Condition/depression-condition-example-1: Condition.verificationStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1 from hl7.fhir.r4.core#4.0.1
+WARNING: Condition/depression-condition-example-1: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/diabetes-condition-example-1.xml ==
+ERROR: Condition/diabetes-condition-example-1: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/ValueSet/us-core-problem-or-health-concern' does not resolve
+INFORMATION: Condition/diabetes-condition-example-1: Condition.verificationStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1 from hl7.fhir.r4.core#4.0.1
+ERROR: Condition/diabetes-condition-example-1: Condition.code.coding[0].display: Wrong Display Name 'Type II diabetes mellitus well controlled (finding)' for http://snomed.info/sct#444110003. There are no valid display names found for language(s) 'en-US'. Default display is 'Type II diabetes mellitus well controlled'
+ERROR: Condition/diabetes-condition-example-1: Condition: Constraint failed: con-4: 'If condition is abated, then clinicalStatus must be either inactive, resolved, or remission'
+WARNING: Condition/diabetes-condition-example-1: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/ValueSet/us-core-problem-or-health-concern' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/disability-status-observation-example-1.xml ==
+ERROR: Observation/disability-status-observation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' does not resolve
+WARNING: Observation/disability-status-observation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-screening-assessment' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/discharge-encounter-example-3.xml ==
+ERROR: Encounter/discharge-encounter-example-3: Encounter.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' does not resolve
+WARNING: Encounter/discharge-encounter-example-3: Encounter.identifier[0].system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
+ERROR: Encounter/discharge-encounter-example-3: Encounter.type[0].coding[0].code: Unknown code '448951000124107' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+WARNING: Encounter/discharge-encounter-example-3: Encounter.hospitalization.dischargeDisposition.coding[0].system: A definition for CodeSystem 'https://www.nubc.org/CodeSystem/PatDischargeStatus' could not be found, so the code cannot be validated
+WARNING: Encounter/discharge-encounter-example-3: Encounter.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ed-encounter-example-1.xml ==
+ERROR: Encounter/ed-encounter-example-1: Encounter.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' does not resolve
+WARNING: Encounter/ed-encounter-example-1: Encounter.identifier[0].system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
+INFORMATION: Encounter/ed-encounter-example-1: Encounter.reasonCode[0]: None of the codings provided are in the value set 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/sid/icd-10-cm#R07.9)
+INFORMATION: Encounter/ed-encounter-example-1: Encounter.reasonCode[1]: None of the codings provided are in the value set 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/sid/icd-10-cm#R61)
+INFORMATION: Encounter/ed-encounter-example-1: Encounter.reasonCode[2]: None of the codings provided are in the value set 'Encounter Reason Codes' (http://hl7.org/fhir/ValueSet/encounter-reason|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/sid/icd-10-cm#R00.2)
+WARNING: Encounter/ed-encounter-example-1: Encounter.partOf.identifier.system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
+WARNING: Encounter/ed-encounter-example-1: Encounter.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ed-location-example-1.xml ==
+ERROR: Location/ed-location-example-1: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-location' does not resolve
+WARNING: Location/ed-location-example-1: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-location' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ed-physician-example-1.xml ==
+ERROR: Practitioner/ed-physician-example-1: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner' does not resolve
+WARNING: Practitioner/ed-physician-example-1: Practitioner.identifier[1].system: URL value 'http://ncsbn.org/identifier/example-system' does not resolve
+WARNING: Practitioner/ed-physician-example-1: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ekg-impression-report-example-1.xml ==
+ERROR: DiagnosticReport/ekg-impression-report-example-1: DiagnosticReport.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|7.0.0' does not resolve
+WARNING: DiagnosticReport/ekg-impression-report-example-1: DiagnosticReport.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/ekg-observation-example-1.xml ==
+ERROR: /f:Observation/f:valueCodeableConcept: Text should not be present ('>')
+ERROR: Observation/ekg-observation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result' does not resolve
+WARNING: Observation/ekg-observation-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ekg-observation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/expansion-parameters-bhir.xml ==
+== input/resources/fall-adverse-event-example-1.xml ==
+== input/resources/fl-medicaid-example-1.xml ==
+ERROR: Organization/fl-medicaid-example-1: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization' does not resolve
+WARNING: Organization/fl-medicaid-example-1: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/flu-vaccine-example-1.xml ==
+ERROR: Immunization/flu-vaccine-example-1: Immunization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|7.0.0' does not resolve
+ERROR: Immunization/flu-vaccine-example-1: Immunization.vaccineCode.coding[0].display: Wrong Display Name 'Influenza, adjuvanted, inactivated, trivalent, injectable, preservative free' for http://hl7.org/fhir/sid/cvx#168. Valid display is 'influenza, trivalent, adjuvanted' (for the language(s) 'en-US')
+WARNING: Immunization/flu-vaccine-example-1: Immunization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/food-insecurity-example-1.xml ==
+ERROR: Goal/food-insecurity-example-1: Goal.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' does not resolve
+WARNING: Goal/food-insecurity-example-1: Goal.category[0].coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes' could not be found, so the code cannot be validated
+ERROR: Goal/food-insecurity-example-1: Goal.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes' does not resolve
+WARNING: Goal/food-insecurity-example-1: Goal.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/grief-condition-example-1.xml ==
+ERROR: Condition/grief-condition-example-1: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' does not resolve
+INFORMATION: Condition/grief-condition-example-1: Condition.verificationStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1 from hl7.fhir.r4.core#4.0.1
+ERROR: Condition/grief-condition-example-1: Condition.code.coding[0].display: Wrong Display Name 'Prolonged grief disorder (finding)' for http://snomed.info/sct#723914003. There are no valid display names found for language(s) 'en-US'. Default display is 'Prolonged grief disorder'
+ERROR: Condition/grief-condition-example-1: Condition: Constraint failed: con-4: 'If condition is abated, then clinicalStatus must be either inactive, resolved, or remission'
+WARNING: Condition/grief-condition-example-1: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/hark-example-1.xml ==
+ERROR: QuestionnaireResponse/hark-example-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' does not resolve
+ERROR: QuestionnaireResponse/hark-example-1: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/core/Questionnaire/hark-example' does not resolve
+WARNING: QuestionnaireResponse/hark-example-1: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/core/Questionnaire/hark-example' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/hark-example-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/harm-reduction-example-1.xml ==
+ERROR: Procedure/harm-reduction-example-1: Procedure.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure' does not resolve
+WARNING: Procedure/harm-reduction-example-1: Procedure.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/heart-rate-example-1.xml ==
+ERROR: Observation/heart-rate-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|7.0.0' does not resolve
+WARNING: Observation/heart-rate-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/heart-rate-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-heart-rate|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/height-example-1.xml ==
+ERROR: Observation/height-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|7.0.0' does not resolve
+WARNING: Observation/height-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/height-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-height|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/hemoglobin-a1c-example-1.xml ==
+ERROR: Observation/hemoglobin-a1c-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab|7.0.0' does not resolve
+ERROR: Observation/hemoglobin-a1c-example-1: Observation.code.coding[0].display: Wrong whitespace in Display Name 'Hemoglobin A1c/Hemoglobin.total in Blood ' for http://loinc.org#4548-4. Valid display is one of 4 choices: 'Hemoglobin A1c/Hemoglobin.total in Blood' (en-US), 'Hemoglobin A1c/Hemoglobin.total in Blood' (en-US), 'HbA1c MFr Bld' (en-US) or 'HbA1c/Total Hgb, Blood' (en-US) (for the language(s) 'en-US')
+WARNING: Observation/hemoglobin-a1c-example-1: Observation.code.coding[0].display: value should not start or finish with whitespace 'Hemoglobin A1c/Hemoglobin.total in Blood '
+WARNING: Observation/hemoglobin-a1c-example-1: Observation.code.text: value should not start or finish with whitespace 'Hemoglobin A1c/Hemoglobin.total in Blood '
+WARNING: Observation/hemoglobin-a1c-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/hemoglobin-a1c-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/housing-insecurity-example-1.xml ==
+ERROR: Goal/housing-insecurity-example-1: Goal.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' does not resolve
+WARNING: Goal/housing-insecurity-example-1: Goal.category[0].coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes' could not be found, so the code cannot be validated
+ERROR: Goal/housing-insecurity-example-1: Goal.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/sdoh-clinicalcare/CodeSystem/SDOHCC-CodeSystemTemporaryCodes' does not resolve
+WARNING: Goal/housing-insecurity-example-1: Goal.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/medicaid-coverage-example-1.xml ==
+ERROR: Coverage/medicaid-coverage-example-1: Coverage.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage' does not resolve
+INFORMATION: Coverage/medicaid-coverage-example-1: Coverage.type: None of the codings provided are in the value set 'Coverage Type and Self-Pay Codes' (http://hl7.org/fhir/ValueSet/coverage-type|4.0.1), and a coding is recommended to come from this value set (codes = https://nahdo.org/sopt#2)
+WARNING: Coverage/medicaid-coverage-example-1: Coverage.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-coverage' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mental-health-clinical-note-types.xml ==
+ERROR: ValueSet.where(url = 'http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types'): Conformance resource /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-clinical-note-types.xml - the canonical URL (https://fhir.health.np/mentalhealth/ValueSet/mental-health-clinical-note-types) does not match the URL (http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types)
+ERROR: ValueSet/mental-health-clinical-note-types: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: ValueSet/mental-health-clinical-note-types: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet/mental-health-clinical-note-types: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/mental-health-clinical-note-types: URL Mismatch https://fhir.health.np/mentalhealth/ValueSet/mental-health-clinical-note-types vs http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types
+== input/resources/mental-health-consult-note-example-1.xml ==
+ERROR: DocumentReference/mental-health-consult-note-example-1: DocumentReference.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' does not resolve
+ERROR: DocumentReference/mental-health-consult-note-example-1: DocumentReference.date: The instant ''2024-01-01' doesn't meet format requirements for instant)' is not valid (by regex)
+WARNING: DocumentReference/mental-health-consult-note-example-1: DocumentReference.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mental-health-discharge-summary-example-1.xml ==
+ERROR: DocumentReference/mental-health-discharge-summary-example-1: DocumentReference.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' does not resolve
+INFORMATION: DocumentReference/mental-health-discharge-summary-example-1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = http://loinc.org#78263-1)
+ERROR: DocumentReference/mental-health-discharge-summary-example-1: DocumentReference.date: The instant ''2024-01-01' doesn't meet format requirements for instant)' is not valid (by regex)
+WARNING: DocumentReference/mental-health-discharge-summary-example-1: DocumentReference.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mental-health-hx-physical-example-1.xml ==
+ERROR: DocumentReference/mental-health-hx-physical-example-1: DocumentReference.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' does not resolve
+INFORMATION: DocumentReference/mental-health-hx-physical-example-1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = http://loinc.org#78306-8)
+ERROR: DocumentReference/mental-health-hx-physical-example-1: DocumentReference.date: The instant ''2024-01-01' doesn't meet format requirements for instant)' is not valid (by regex)
+WARNING: DocumentReference/mental-health-hx-physical-example-1: DocumentReference.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mental-health-procedure-example-1.xml ==
+ERROR: DocumentReference/mental-health-procedure-example-1: DocumentReference.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' does not resolve
+ERROR: DocumentReference/mental-health-procedure-example-1: DocumentReference.type.coding[0].display: Wrong Display Name 'Mental Health Procedure Note' for http://loinc.org#78306-8. Valid display is one of 3 choices: 'Mental health History and physical note' (en-US), 'Mental health History and physical note' (en-US) or 'Mental health H&P note' (en-US) (for the language(s) 'en-US')
+INFORMATION: DocumentReference/mental-health-procedure-example-1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = http://loinc.org#78306-8)
+ERROR: DocumentReference/mental-health-procedure-example-1: DocumentReference.date: The instant ''2024-01-01' doesn't meet format requirements for instant)' is not valid (by regex)
+WARNING: DocumentReference/mental-health-procedure-example-1: DocumentReference.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mental-health-progress-example-1.xml ==
+ERROR: DocumentReference/mental-health-progress-example-1: DocumentReference.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' does not resolve
+ERROR: DocumentReference/mental-health-progress-example-1: DocumentReference.type.coding[0].display: Wrong Display Name 'Mental Health Progress Note' for http://loinc.org#78306-8. Valid display is one of 3 choices: 'Mental health History and physical note' (en-US), 'Mental health History and physical note' (en-US) or 'Mental health H&P note' (en-US) (for the language(s) 'en-US')
+INFORMATION: DocumentReference/mental-health-progress-example-1: DocumentReference.type: None of the codings provided are in the value set 'Document Type Value Set' (http://hl7.org/fhir/ValueSet/c80-doc-typecodes|4.0.1), and a coding is recommended to come from this value set (codes = http://loinc.org#78306-8)
+ERROR: DocumentReference/mental-health-progress-example-1: DocumentReference.date: The instant ''2024-01-01' doesn't meet format requirements for instant)' is not valid (by regex)
+WARNING: DocumentReference/mental-health-progress-example-1: DocumentReference.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/bhp/StructureDefinition/mental-health-clinical-notes' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mental-health-provider-example-1.xml ==
+ERROR: Practitioner/mental-health-provider-example-1: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner' does not resolve
+WARNING: Practitioner/mental-health-provider-example-1: Practitioner.identifier[1].system: URL value 'http://ncsbn.org/identifier/example-system' does not resolve
+WARNING: Practitioner/mental-health-provider-example-1: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/metformin-discharge-med-example-1.xml ==
+ERROR: MedicationRequest/metformin-discharge-med-example-1: MedicationRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' does not resolve
+INFORMATION: MedicationRequest/metformin-discharge-med-example-1: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+WARNING: MedicationRequest/metformin-discharge-med-example-1: MedicationRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/mh-provider-example-1.xml ==
+ERROR: Organization/mh-provider-example-1: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization' does not resolve
+WARNING: Organization/mh-provider-example-1: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/no-morphine-preference-observation-example-1.xml ==
+ERROR: Observation/no-morphine-preference-observation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-treatment-intervention-preference' does not resolve
+INFORMATION: Observation/no-morphine-preference-observation-example-1: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#treatment-intervention-preference)
+ERROR: Observation/no-morphine-preference-observation-example-1: Observation.code.coding[0].display: Wrong Display Name 'Goals, preferences, and priorities for medical treatment [Reported]' for http://loinc.org#75773-2. Valid display is one of 3 choices: 'Goals, preferences, and priorities for medical treatment Narrative - Reported' (en-US), 'Goals, preferences, and priorities for medical treatment Narrative - Reported' (en-US) or 'Reported' (en-US) (for the language(s) 'en-US')
+WARNING: Observation/no-morphine-preference-observation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-treatment-intervention-preference' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/non-smoker-example-1.xml ==
+ERROR: Observation/non-smoker-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus' does not resolve
+WARNING: Observation/non-smoker-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/non-smoker-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/obs-encounter-example-2.xml ==
+ERROR: Encounter/obs-encounter-example-2: Encounter.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' does not resolve
+WARNING: Encounter/obs-encounter-example-2: Encounter.identifier[0].system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
+ERROR: Encounter/obs-encounter-example-2: Encounter.type[0].coding[0].code: Unknown code '448951000124107' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
+WARNING: Encounter/obs-encounter-example-2: Encounter.partOf.identifier.system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
+WARNING: Encounter/obs-encounter-example-2: Encounter.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/obs-location-example-1.xml ==
+ERROR: Location/obs-location-example-1: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-location' does not resolve
+WARNING: Location/obs-location-example-1: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-location' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/oxygen-saturation-example-1.xml ==
+ERROR: Observation/oxygen-saturation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|7.0.0' does not resolve
+WARNING: Observation/oxygen-saturation-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/oxygen-saturation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-pulse-oximetry|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/panic-attack-condition-example-1.xml ==
+ERROR: Condition/panic-attack-condition-example-1: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' does not resolve
+INFORMATION: Condition/panic-attack-condition-example-1: Condition.verificationStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1 from hl7.fhir.r4.core#4.0.1
+ERROR: Condition/panic-attack-condition-example-1: Condition: Constraint failed: con-4: 'If condition is abated, then clinicalStatus must be either inactive, resolved, or remission'
+WARNING: Condition/panic-attack-condition-example-1: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/paroxetine-discharge-med-example-1.xml ==
+ERROR: /f:MedicationRequest/f:dispenseRequest/f:quantity: Undefined attribute '@value' on quantity for type Quantity
+ERROR: MedicationRequest.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
+ERROR: MedicationRequest/paroxetine-discharge-med-example-1: MedicationRequest.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' does not resolve
+ERROR: MedicationRequest/paroxetine-discharge-med-example-1: MedicationRequest.extension[0]: The extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication-adherence could not be found so is not allowed here
+ERROR: MedicationRequest/paroxetine-discharge-med-example-1: MedicationRequest.extension[0].url: URL value 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication-adherence' does not resolve
+INFORMATION: MedicationRequest/paroxetine-discharge-med-example-1: MedicationRequest.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].code: The code '702565001' is valid but is not active
+INFORMATION: MedicationRequest/paroxetine-discharge-med-example-1: MedicationRequest.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+WARNING: MedicationRequest/paroxetine-discharge-med-example-1: MedicationRequest.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: MedicationRequest.text.div: Hyperlink 'StructureDefinition-us-core-medicationrequest.html' at 'div/div/p/a' for 'US Core
+                    MedicationRequest Profile (version 7.0.0)' does not resolve
+ERROR: MedicationRequest.text.div: Hyperlink 'http://terminology.hl7.org/5.3.0/CodeSystem-v3-rxNorm.html' at 'div/p/span/a' for 'RxNorm' does not resolve
+== input/resources/pcp-encounter-example-4.xml ==
+ERROR: Encounter/pcp-encounter-example-4: Encounter.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' does not resolve
+WARNING: Encounter/pcp-encounter-example-4: Encounter.identifier[0].system: URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
+WARNING: Encounter/pcp-encounter-example-4: Encounter.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/pcp-provider-example-1.xml ==
+ERROR: Practitioner/pcp-provider-example-1: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner' does not resolve
+WARNING: Practitioner/pcp-provider-example-1: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/peanut-allergy-example-1.xml ==
+ERROR: AllergyIntolerance/peanut-allergy-example-1: AllergyIntolerance.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance' does not resolve
+WARNING: AllergyIntolerance/peanut-allergy-example-1: AllergyIntolerance.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/penicillin-allergy-example-1.xml ==
+ERROR: AllergyIntolerance/penicillin-allergy-example-1: AllergyIntolerance.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance' does not resolve
+ERROR: AllergyIntolerance/penicillin-allergy-example-1: AllergyIntolerance.reaction[0].manifestation[0].coding[0].display: Wrong Display Name 'Wheal (finding)' for http://snomed.info/sct#56018004. There are no valid display names found for language(s) 'en-US'. Default display is 'Wheezing'
+WARNING: AllergyIntolerance/penicillin-allergy-example-1: AllergyIntolerance.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/phq-9-example-1.xml ==
+ERROR: QuestionnaireResponse/phq-9-example-1: QuestionnaireResponse.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' does not resolve
+ERROR: QuestionnaireResponse/phq-9-example-1: QuestionnaireResponse.questionnaire: Canonical URL 'http://hl7.org/fhir/us/core/Questionnaire/phq-9-example' does not resolve
+WARNING: QuestionnaireResponse/phq-9-example-1: QuestionnaireResponse: The questionnaire 'http://hl7.org/fhir/us/core/Questionnaire/phq-9-example' could not be resolved, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/phq-9-example-1: QuestionnaireResponse.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/pregnancy-status-example-1.xml ==
+ERROR: Observation/pregnancy-status-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus' does not resolve
+WARNING: Observation/pregnancy-status-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/pregnancy-status-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-pregnancystatus' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/program-info.xml ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/us/bhp/StructureDefinition/program-info'): Conformance resource /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/program-info.xml - the canonical URL (https://fhir.health.np/mentalhealth/StructureDefinition/program-info) does not match the URL (http://hl7.org/fhir/us/bhp/StructureDefinition/program-info)
+ERROR: StructureDefinition/program-info: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/bhp/StructureDefinition/program-info'): The Implementation Guide contains no examples for this extension
+ERROR: /Users/rcpoudel/Code/ig-fhir-mental-health/input/resources/program-info: URL Mismatch https://fhir.health.np/mentalhealth/StructureDefinition/program-info vs http://hl7.org/fhir/us/bhp/StructureDefinition/program-info
+== input/resources/provider-preference-observation-example-2.xml ==
+ERROR: Observation/provider-preference-observation-example-2: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-care-experience-preference' does not resolve
+INFORMATION: Observation/provider-preference-observation-example-2: Observation.category[0]: None of the codings provided are in the value set 'Observation Category Codes' (http://hl7.org/fhir/ValueSet/observation-category|4.0.1), and a coding is recommended to come from this value set (codes = http://hl7.org/fhir/us/core/CodeSystem/us-core-category#care-experience-preference)
+WARNING: Observation/provider-preference-observation-example-2: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-care-experience-preference' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/respiratory-rate-example-1.xml ==
+ERROR: Observation/respiratory-rate-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|7.0.0' does not resolve
+WARNING: Observation/respiratory-rate-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/respiratory-rate-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-respiratory-rate|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/sexual-orientation-example-1.xml ==
+ERROR: Observation/sexual-orientation-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sexual-orientation|7.0.0' does not resolve
+WARNING: Observation/sexual-orientation-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/sexual-orientation-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-sexual-orientation|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/social-connection-example-1.xml ==
+ERROR: Goal/social-connection-example-1: Goal.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' does not resolve
+WARNING: Goal/social-connection-example-1: Goal.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/substance-abuse-condition-example-1.xml ==
+ERROR: Condition/substance-abuse-condition-example-1: Condition.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' does not resolve
+INFORMATION: Condition/substance-abuse-condition-example-1: Condition.verificationStatus: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1 from hl7.fhir.r4.core#4.0.1
+INFORMATION: Condition/substance-abuse-condition-example-1: Condition.code.coding[0].code: The code '371422002' is valid but is not active
+ERROR: Condition/substance-abuse-condition-example-1: Condition: Constraint failed: con-4: 'If condition is abated, then clinicalStatus must be either inactive, resolved, or remission'
+WARNING: Condition/substance-abuse-condition-example-1: Condition.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/temperature-example-1.xml ==
+ERROR: Observation/temperature-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|7.0.0' does not resolve
+WARNING: Observation/temperature-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/temperature-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/transportation-insecurity-example-1.xml ==
+ERROR: Goal/transportation-insecurity-example-1: Goal.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' does not resolve
+WARNING: Goal/transportation-insecurity-example-1: Goal.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Goal' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/usual-work-example-1.xml ==
+ERROR: Observation/usual-work-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-occupation' does not resolve
+WARNING: Observation/usual-work-example-1: Observation.value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'urn:oid:2.16.840.1.114222.4.5.327' could not be found, so the code cannot be validated
+WARNING: Observation/usual-work-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/usual-work-example-1: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+WARNING: Observation/usual-work-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-occupation' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== input/resources/weight-example-1.xml ==
+ERROR: Observation/weight-example-1: Observation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|7.0.0' does not resolve
+WARNING: Observation/weight-example-1: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/weight-example-1: Observation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-weight|7.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles

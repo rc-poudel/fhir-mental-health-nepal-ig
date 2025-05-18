@@ -1,0 +1,79 @@
+[
+  {
+    "id" : "bh-funding-type-codes",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+    "version" : "1.0.1",
+    "name" : "BehavioralHealthProgramFundingTypeCodes"
+  },
+  {
+    "id" : "program-info",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/bhp/StructureDefinition/program-info",
+    "version" : "1.0.1",
+    "name" : "GrantProgramIdAndNumber"
+  },
+  {
+    "id" : "bh-funding-types",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types",
+    "version" : "1.0.1",
+    "name" : "BehavioralHealthProgramFundingTypes"
+  },
+  {
+    "id" : "mental-health-clinical-note-types",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types",
+    "version" : "1.0.1",
+    "name" : "MentalHealthClinicalNoteTypes"
+  },
+  {
+    "id" : "ethnic-code-cs",
+    "type" : "CodeSystem",
+    "url" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+    "version" : "1.0.1",
+    "name" : "EthnicCodeCS"
+  },
+  {
+    "id" : "mentalhealth.fhir.ig",
+    "type" : "ImplementationGuide",
+    "url" : "https://fhir.health.np/mentalhealth/ImplementationGuide/mentalhealth.fhir.ig",
+    "version" : "1.0.1",
+    "name" : "FHIRMentalHealthIG"
+  },
+  {
+    "id" : "ethnic-code",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/ethnic-code",
+    "version" : "1.0.1",
+    "name" : "EthnicCode"
+  },
+  {
+    "id" : "mental-health-condition",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-condition",
+    "version" : "1.0.1",
+    "name" : "PrimaryDiagnosisCondition"
+  },
+  {
+    "id" : "mental-health-referral",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral",
+    "version" : "1.0.1",
+    "name" : "MentalHealthReferral"
+  },
+  {
+    "id" : "mental-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-patient",
+    "version" : "1.0.1",
+    "name" : "MentalPatient"
+  },
+  {
+    "id" : "ethnic-code-vs",
+    "type" : "ValueSet",
+    "url" : "https://fhir.health.np/mentalhealth/ValueSet/ethnic-code-vs",
+    "version" : "1.0.1",
+    "name" : "EthnicCodeVS"
+  }
+]

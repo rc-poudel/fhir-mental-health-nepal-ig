@@ -1,0 +1,35 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BehavioralHealthProgramFundingTypes",
+      "title" : "Behavioral Health Program Funding Types",
+      "description" : null,
+      "systems" : [
+        "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes"
+      ]
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "MentalHealthClinicalNoteTypes",
+      "title" : "Mental Health Clinical Note Types",
+      "description" : null,
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "https://fhir.health.np/mentalhealth/ValueSet/ethnic-code-vs",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "EthnicCodeVS",
+      "title" : "Ethnic Code ValueSet",
+      "description" : "ValueSet for जाति कोड (Ethnic Codes in Nepal)",
+      "systems" : [
+        "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs"
+      ]
+    }
+  ]
+}

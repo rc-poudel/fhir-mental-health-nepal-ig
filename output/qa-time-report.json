@@ -1,0 +1,3020 @@
+{
+  "date" : "Sun, 18 May, 2025 07:55:58 +0545",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-mentalhealth.fhir.ig.json",
+      "size" : 21841,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 11
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 26,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 26,
+          "length" : 2575
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 16123
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 68,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 142
+        },
+        {
+          "activity" : "generate2",
+          "start" : 319,
+          "length" : 134
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 346,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-ethnic-code-cs.json",
+      "size" : 945,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 7
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 67
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 319,
+          "length" : 1383
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Condition-example-primary-diagnosis.json",
+      "size" : 926,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 2138
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 321,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-ExamplePatient.json",
+      "size" : 1142,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 265
+        },
+        {
+          "activity" : "validate",
+          "start" : 70,
+          "length" : 35
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 321,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ServiceRequest-ExampleReferralToPsychiatrist.json",
+      "size" : 1032,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 70,
+          "length" : 1515
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 321,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ethnic-code.json",
+      "size" : 1480,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 25,
+          "length" : 7
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 28
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 136
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 321,
+          "length" : 130
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 1066
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-mental-health-condition.json",
+      "size" : 2891,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 25,
+          "length" : 153
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 207
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 313,
+          "length" : 292
+        },
+        {
+          "activity" : "generate2",
+          "start" : 321,
+          "length" : 374
+        },
+        {
+          "activity" : "generate2",
+          "start" : 327,
+          "length" : 300
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-mental-health-referral.json",
+      "size" : 4285,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 5
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 25,
+          "length" : 60
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 31
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 369
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 68,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 314,
+          "length" : 564
+        },
+        {
+          "activity" : "generate2",
+          "start" : 321,
+          "length" : 434
+        },
+        {
+          "activity" : "generate2",
+          "start" : 328,
+          "length" : 348
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 346,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-mental-patient.json",
+      "size" : 2931,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 25,
+          "length" : 51
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 119
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 314,
+          "length" : 311
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 337
+        },
+        {
+          "activity" : "generate2",
+          "start" : 328,
+          "length" : 454
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 346,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ethnic-code-vs.json",
+      "size" : 435,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 70
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 83
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/BHP-QuestionnaireResponsePRAPAREExample-1.xml",
+      "size" : 11934,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 72,
+          "length" : 21021
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 128
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 53
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/C-SSRS-example-1.xml",
+      "size" : 3562,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 93,
+          "length" : 1149
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 27
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/SDOHCC-ConsentInformationDisclosure-example-1.xml",
+      "size" : 3186,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 94,
+          "length" : 2687
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 29
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ServiceRequest-peer-mentoring-example-1.xml",
+      "size" : 1291,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 97,
+          "length" : 5061
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 25
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ace-example-1.xml",
+      "size" : 3461,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 102,
+          "length" : 1462
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 87
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 25
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/adult-child-relatedperson-example-1.xml",
+      "size" : 1249,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 103,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/alcohol-prevetion-education-example-1.xml",
+      "size" : 784,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 103,
+          "length" : 1456
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 328,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/alcohol-use-identification-test-1.xml",
+      "size" : 1952,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 105,
+          "length" : 2941
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/anxiety-assessment-observation-example-1.xml",
+      "size" : 1715,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 28
+        },
+        {
+          "activity" : "validate",
+          "start" : 108,
+          "length" : 4482
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ativan-discharge-med-example-1.xml",
+      "size" : 1187,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 112,
+          "length" : 1491
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/average-blood-pressure-example-1.xml",
+      "size" : 2192,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 29,
+          "length" : 1498
+        },
+        {
+          "activity" : "validate",
+          "start" : 113,
+          "length" : 4394
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 28
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/barthel-index-functional-status-example-1.xml",
+      "size" : 4767,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 118,
+          "length" : 9879
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 63
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/benzo-medication-example-1.xml",
+      "size" : 526,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 128,
+          "length" : 1587
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/benzo-order-example-1.xml",
+      "size" : 1117,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 129,
+          "length" : 313
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bh-care-team-example-1.xml",
+      "size" : 1297,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 130,
+          "length" : 2952
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 322,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bh-funding-type-codes.xml",
+      "size" : 924,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 19
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 23
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bh-funding-types.xml",
+      "size" : 921,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 21
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 26
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bh-grant-info-observation-example-1.xml",
+      "size" : 3999,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 133,
+          "length" : 13
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bh-patient-example.xml",
+      "size" : 4170,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 133,
+          "length" : 3507
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bh-prevention-education-program-example-1.xml",
+      "size" : 965,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 136,
+          "length" : 1841
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/blood-pressure-example-1.xml",
+      "size" : 2036,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 138,
+          "length" : 9568
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 330,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bupropion-discharge-med-example-1.xml",
+      "size" : 1192,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 148,
+          "length" : 1575
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/bupropion-dispense-example-1.xml",
+      "size" : 908,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 30,
+          "length" : 1452
+        },
+        {
+          "activity" : "validate",
+          "start" : 149,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/chest-pain-condition-example-1.xml",
+      "size" : 1663,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 149,
+          "length" : 5673
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/cognitive-status-observation-example-3.xml",
+      "size" : 1774,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 155,
+          "length" : 9051
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/depression-condition-example-1.xml",
+      "size" : 1708,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 164,
+          "length" : 2948
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/diabetes-condition-example-1.xml",
+      "size" : 1858,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 167,
+          "length" : 2906
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/disability-status-observation-example-1.xml",
+      "size" : 1622,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 170,
+          "length" : 2970
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/discharge-encounter-example-3.xml",
+      "size" : 3449,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 126
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 68,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 173,
+          "length" : 3383
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ed-encounter-example-1.xml",
+      "size" : 3473,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 176,
+          "length" : 6144
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ed-location-example-1.xml",
+      "size" : 1061,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 182,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ed-physician-example-1.xml",
+      "size" : 946,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 182,
+          "length" : 282
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ekg-impression-report-example-1.xml",
+      "size" : 1020,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 182,
+          "length" : 4207
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ekg-observation-example-1.xml",
+      "size" : 1161,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 187,
+          "length" : 3157
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/expansion-parameters-bhir.xml",
+      "size" : 440,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 190,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 4
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/fall-adverse-event-example-1.xml",
+      "size" : 484,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 190,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 5
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/fl-medicaid-example-1.xml",
+      "size" : 737,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 190,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/flu-vaccine-example-1.xml",
+      "size" : 1195,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 190,
+          "length" : 2956
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/food-insecurity-example-1.xml",
+      "size" : 1706,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 193,
+          "length" : 4379
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/grief-condition-example-1.xml",
+      "size" : 2125,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 197,
+          "length" : 8746
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/hark-example-1.xml",
+      "size" : 2435,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 206,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 27
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/harm-reduction-example-1.xml",
+      "size" : 723,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 206,
+          "length" : 1477
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 6
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 38
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/heart-rate-example-1.xml",
+      "size" : 1118,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 32,
+          "length" : 1519
+        },
+        {
+          "activity" : "validate",
+          "start" : 207,
+          "length" : 3022
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/height-example-1.xml",
+      "size" : 1107,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 33,
+          "length" : 1467
+        },
+        {
+          "activity" : "validate",
+          "start" : 210,
+          "length" : 3714
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/hemoglobin-a1c-example-1.xml",
+      "size" : 1461,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 1535
+        },
+        {
+          "activity" : "validate",
+          "start" : 214,
+          "length" : 1464
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/housing-insecurity-example-1.xml",
+      "size" : 1753,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 216,
+          "length" : 4546
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/medicaid-coverage-example-1.xml",
+      "size" : 1766,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 220,
+          "length" : 1518
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-clinical-note-types.xml",
+      "size" : 1340,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 1515
+        },
+        {
+          "activity" : "validate",
+          "start" : 44,
+          "length" : 6847
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 323,
+          "length" : 2974
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-consult-note-example-1.xml",
+      "size" : 1494,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 38,
+          "length" : 3084
+        },
+        {
+          "activity" : "validate",
+          "start" : 222,
+          "length" : 10876
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-discharge-summary-example-1.xml",
+      "size" : 1509,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 233,
+          "length" : 7934
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-hx-physical-example-1.xml",
+      "size" : 1519,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 240,
+          "length" : 5390
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-procedure-example-1.xml",
+      "size" : 1495,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 246,
+          "length" : 1724
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-progress-example-1.xml",
+      "size" : 1572,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 248,
+          "length" : 1548
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mental-health-provider-example-1.xml",
+      "size" : 970,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 249,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/metformin-discharge-med-example-1.xml",
+      "size" : 1250,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 249,
+          "length" : 1599
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mh-provider-example-1.xml",
+      "size" : 855,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 251,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/no-morphine-preference-observation-example-1.xml",
+      "size" : 1462,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 251,
+          "length" : 1412
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/non-smoker-example-1.xml",
+      "size" : 1205,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 252,
+          "length" : 2895
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/obs-encounter-example-2.xml",
+      "size" : 2226,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 255,
+          "length" : 11
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/obs-location-example-1.xml",
+      "size" : 1042,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 255,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/oxygen-saturation-example-1.xml",
+      "size" : 1355,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 255,
+          "length" : 5776
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/panic-attack-condition-example-1.xml",
+      "size" : 1660,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 261,
+          "length" : 1598
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/paroxetine-discharge-med-example-1.xml",
+      "size" : 7745,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 262,
+          "length" : 6250
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/pcp-encounter-example-4.xml",
+      "size" : 1099,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 269,
+          "length" : 1635
+        },
+        {
+          "activity" : "generate1",
+          "start" : 315,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/pcp-provider-example-1.xml",
+      "size" : 905,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 270,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/peanut-allergy-example-1.xml",
+      "size" : 1409,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 270,
+          "length" : 2878
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 346,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/penicillin-allergy-example-1.xml",
+      "size" : 1445,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 273,
+          "length" : 3014
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/phq-9-example-1.xml",
+      "size" : 4826,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 26,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 276,
+          "length" : 6246
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 63
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/pregnancy-status-example-1.xml",
+      "size" : 1320,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 282,
+          "length" : 4546
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/program-info.xml",
+      "size" : 3551,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 25,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 48
+        },
+        {
+          "activity" : "validate",
+          "start" : 52,
+          "length" : 63
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 120
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 69
+        },
+        {
+          "activity" : "generate2",
+          "start" : 328,
+          "length" : 60
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 337,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/provider-preference-observation-example-2.xml",
+      "size" : 1507,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 287,
+          "length" : 2720
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 40
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/respiratory-rate-example-1.xml",
+      "size" : 1150,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 290,
+          "length" : 3232
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/sexual-orientation-example-1.xml",
+      "size" : 1227,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 293,
+          "length" : 3077
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/social-connection-example-1.xml",
+      "size" : 905,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 296,
+          "length" : 1471
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/substance-abuse-condition-example-1.xml",
+      "size" : 1679,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 298,
+          "length" : 1746
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/temperature-example-1.xml",
+      "size" : 1164,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 1530
+        },
+        {
+          "activity" : "validate",
+          "start" : 299,
+          "length" : 4242
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/transportation-insecurity-example-1.xml",
+      "size" : 915,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 304,
+          "length" : 1539
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/usual-work-example-1.xml",
+      "size" : 858,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 305,
+          "length" : 3376
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/weight-example-1.xml",
+      "size" : 1111,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 43,
+          "length" : 1427
+        },
+        {
+          "activity" : "validate",
+          "start" : 308,
+          "length" : 4507
+        },
+        {
+          "activity" : "generate1",
+          "start" : 316,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 326,
+          "length" : 7
+        }
+      ]
+    }
+  ]
+}

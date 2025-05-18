@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types,1.0.1,draft,,BehavioralHealthProgramFundingTypes,Behavioral Health Program Funding Types,"",,"Internal"
+http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types,1.0.1,draft,,MentalHealthClinicalNoteTypes,Mental Health Clinical Note Types,"",,"LOINC"
+https://fhir.health.np/mentalhealth/ValueSet/ethnic-code-vs,1.0.1,active,,EthnicCodeVS,Ethnic Code ValueSet,"ValueSet for जाति कोड (Ethnic Codes in Nepal)","StructureDefinition/ethnic-code","Internal"

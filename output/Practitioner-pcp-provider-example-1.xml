@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="pcp-provider-example-1"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner pcp-provider-example-1</b></p><a name="pcp-provider-example-1"> </a><a name="hcpcp-provider-example-1"> </a><a name="pcp-provider-example-1-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner</code></p></div><p><b>identifier</b>: <a href="http://terminology.hl7.org/6.3.0/NamingSystem-npi.html" title="National Provider Identifier">United States National Provider Identifier</a>/72329591328</p><p><b>name</b>: Doc Family </p><p><b>telecom</b>: ph: 999-999-9999(Work), <a href="mailto:doc.family@example.com">doc.family@example.com</a></p><p><b>address</b>: 444 Main Street Miami FL 33102 (work)</p></div>
+  </text>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-npi"/>
+    <value value="72329591328"/>
+  </identifier>
+  <name>
+    <family value="Family"/>
+    <given value="Doc"/>
+    <prefix value="Dr"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="999-999-9999"/>
+    <use value="work"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="doc.family@example.com"/>
+  </telecom>
+  <address>
+    <use value="work"/>
+    <line value="444 Main Street"/>
+    <city value="Miami"/>
+    <state value="FL"/>
+    <postalCode value="33102"/>
+  </address>
+</Practitioner>

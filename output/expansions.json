@@ -1,0 +1,233 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "898b6483-6e20-4147-ad3d-18849a6d5946",
+  "meta" : {
+    "lastUpdated" : "2025-05-18T07:55:58.391+05:45"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://fhir.health.np/mentalhealth/ValueSet/ethnic-code-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-ethnic-code-cs.html\">codesystem Ethnic Code v1.0.1 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-1\">1</a></td><td>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</td><td>1 दलित (१)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-2\">2</a></td><td>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</td><td>2 जनजाती (२)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-3\">3</a></td><td>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</td><td>3 मधेसी (३)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-4\">4</a></td><td>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</td><td>4 मुस्लिम (४)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs-5\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-5\">5</a></td><td>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</td><td>5 ब्राह्मण/क्षेत्री (५)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs-6\"> </a>\u00a0\u00a0<a href=\"CodeSystem-ethnic-code-cs.html#ethnic-code-cs-6\">6</a></td><td>https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs</td><td>6 अन्य (६)</td></tr></table></div>"
+      },
+      "url" : "https://fhir.health.np/mentalhealth/ValueSet/ethnic-code-vs",
+      "version" : "1.0.1",
+      "name" : "EthnicCodeVS",
+      "title" : "Ethnic Code ValueSet",
+      "status" : "active",
+      "date" : "2025-05-18T07:55:32+05:45",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NP",
+          "display" : "Nepal"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:c0e6ef64-b56c-4b08-ad27-6b97761619ec",
+        "timestamp" : "2025-05-18T08:00:55+05:45",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs|1.0.1"
+        }],
+        "contains" : [{
+          "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+          "code" : "1",
+          "display" : "1 दलित (१)"
+        },
+        {
+          "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+          "code" : "2",
+          "display" : "2 जनजाती (२)"
+        },
+        {
+          "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+          "code" : "3",
+          "display" : "3 मधेसी (३)"
+        },
+        {
+          "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+          "code" : "4",
+          "display" : "4 मुस्लिम (४)"
+        },
+        {
+          "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+          "code" : "5",
+          "display" : "5 ब्राह्मण/क्षेत्री (५)"
+        },
+        {
+          "system" : "https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs",
+          "code" : "6",
+          "display" : "6 अन्य (६)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-bh-funding-type-codes.html\">codesystem Behavioral Health Program Funding Type Codes v1.0.1 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes-discretionary\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bh-funding-type-codes.html#bh-funding-type-codes-discretionary\">discretionary</a></td><td>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</td><td>Discretionary Funding</td><td><div><p>Discretionary Funding</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes-grant-funding-type\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bh-funding-type-codes.html#bh-funding-type-codes-grant-funding-type\">grant-funding-type</a></td><td>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</td><td>Grant Funding Type</td><td><div><p>Grant Funding Type</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes-funding-program-info\"> </a>\u00a0\u00a0<a href=\"CodeSystem-bh-funding-type-codes.html#bh-funding-type-codes-funding-program-info\">funding-program-info</a></td><td>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</td><td>Program Funding Information</td><td><div><p>Program Funding Information</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types",
+      "version" : "1.0.1",
+      "name" : "BehavioralHealthProgramFundingTypes",
+      "title" : "Behavioral Health Program Funding Types",
+      "status" : "draft",
+      "date" : "2025-05-18T07:55:32+05:45",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NP",
+          "display" : "Nepal"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d57d6d76-445f-41eb-b4b9-50ff05a62ee9",
+        "timestamp" : "2025-05-18T08:00:55+05:45",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes|1.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+          "code" : "discretionary",
+          "display" : "Discretionary Funding"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+          "code" : "grant-funding-type",
+          "display" : "Grant Funding Type"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+          "code" : "funding-program-info",
+          "display" : "Program Funding Information"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.80</p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-34785-6\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/34785-6/\">34785-6</a></td><td>http://loinc.org</td><td>Mental health Consult note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-78263-1\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/78263-1/\">78263-1</a></td><td>http://loinc.org</td><td>Mental health Discharge summary</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-78306-8\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/78306-8/\">78306-8</a></td><td>http://loinc.org</td><td>Mental health History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-78472-8\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/78472-8/\">78472-8</a></td><td>http://loinc.org</td><td>Mental health procedure note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://loinc.org-34904-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/34904-3/\">34904-3</a></td><td>http://loinc.org</td><td>Mental health Progress note</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types",
+      "version" : "1.0.1",
+      "name" : "MentalHealthClinicalNoteTypes",
+      "title" : "Mental Health Clinical Note Types",
+      "status" : "draft",
+      "date" : "2025-05-18T07:55:32+05:45",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NP",
+          "display" : "Nepal"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:eafc36c7-3919-443a-ac7f-30bed10633d3",
+        "timestamp" : "2025-05-18T08:00:55+05:45",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.80"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.80"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "34785-6",
+          "display" : "Mental health Consult note"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "78263-1",
+          "display" : "Mental health Discharge summary"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "78306-8",
+          "display" : "Mental health History and physical note"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "78472-8",
+          "display" : "Mental health procedure note"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "34904-3",
+          "display" : "Mental health Progress note"
+        }]
+      }
+    }
+  }]
+}
