@@ -1,5 +1,5 @@
 Instance: ExampleReferralToPsychiatrist
-InstanceOf: MentalHealthReferral
+InstanceOf: MentalHealthReferralRequest
 Title: "Referral to Psychiatrist"
 Description: "A referral order for psychiatric evaluation for a patient with depressive disorder."
 

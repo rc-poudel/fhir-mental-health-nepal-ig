@@ -10,7 +10,7 @@
   "name" : "FHIRMentalHealthIG",
   "title" : "Mental Health FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2025-05-18T07:55:32+05:45",
+  "date" : "2025-05-20T08:23:51+05:45",
   "publisher" : "https://rcp.com.np",
   "contact" : [{
     "name" : "https://rcp.com.np",
@@ -621,336 +621,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/ace-example-1"
-      },
-      "name" : "ace-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "RelatedPerson"
-      }],
-      "reference" : {
-        "reference" : "RelatedPerson/adult-child-relatedperson-example-1"
-      },
-      "name" : "adult-child-relatedperson-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Procedure"
-      }],
-      "reference" : {
-        "reference" : "Procedure/alcohol-prevetion-education-example-1"
-      },
-      "name" : "alcohol-prevetion-education-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/alcohol-use-identification-test-1"
-      },
-      "name" : "alcohol-use-identification-test-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/anxiety-assessment-observation-example-1"
-      },
-      "name" : "anxiety-assessment-observation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationRequest"
-      }],
-      "reference" : {
-        "reference" : "MedicationRequest/ativan-discharge-med-example-1"
-      },
-      "name" : "ativan-discharge-med-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/average-blood-pressure-example-1"
-      },
-      "name" : "average-blood-pressure-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/barthel-index-functional-status-example-1"
-      },
-      "name" : "barthel-index-functional-status-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/bh-funding-type-codes"
-      },
-      "name" : "Behavioral Health Program Funding Type Codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/bh-funding-types"
-      },
-      "name" : "Behavioral Health Program Funding Types",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Medication"
-      }],
-      "reference" : {
-        "reference" : "Medication/benzo-medication-example-1"
-      },
-      "name" : "benzo-medication-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationRequest"
-      }],
-      "reference" : {
-        "reference" : "MedicationRequest/benzo-order-example-1"
-      },
-      "name" : "benzo-order-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/bh-grant-info-observation-example-1"
-      },
-      "name" : "bh-grant-info-observation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/bh-patient-example"
-      },
-      "name" : "bh-patient-example",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Procedure"
-      }],
-      "reference" : {
-        "reference" : "Procedure/bh-prevention-education-program-example-1"
-      },
-      "name" : "bh-prevention-education-program-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1"
-      },
-      "name" : "BHP-QuestionnaireResponsePRAPAREExample-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/blood-pressure-example-1"
-      },
-      "name" : "blood-pressure-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationRequest"
-      }],
-      "reference" : {
-        "reference" : "MedicationRequest/bupropion-discharge-med-example-1"
-      },
-      "name" : "bupropion-discharge-med-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationDispense"
-      }],
-      "reference" : {
-        "reference" : "MedicationDispense/bupropion-dispense-example-1"
-      },
-      "name" : "bupropion-dispense-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/C-SSRS-example-1"
-      },
-      "name" : "C-SSRS-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/chest-pain-condition-example-1"
-      },
-      "name" : "chest-pain-condition-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/cognitive-status-observation-example-3"
-      },
-      "name" : "cognitive-status-observation-example-3",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/depression-condition-example-1"
-      },
-      "name" : "depression-condition-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/diabetes-condition-example-1"
-      },
-      "name" : "diabetes-condition-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/disability-status-observation-example-1"
-      },
-      "name" : "disability-status-observation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/discharge-encounter-example-3"
-      },
-      "name" : "discharge-encounter-example-3",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/ed-encounter-example-1"
-      },
-      "name" : "ed-encounter-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/ed-physician-example-1"
-      },
-      "name" : "ed-physician-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/ekg-impression-report-example-1"
-      },
-      "name" : "ekg-impression-report-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ekg-observation-example-1"
-      },
-      "name" : "ekg-observation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -987,17 +657,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CareTeam"
-      }],
-      "reference" : {
-        "reference" : "CareTeam/bh-care-team-example-1"
-      },
-      "name" : "Example CareTeam",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Condition"
       }],
       "reference" : {
@@ -1010,136 +669,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Parameters"
+        "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Parameters/expansion-parameters-bhir"
+        "reference" : "Observation/ExampleMentalHealthObservationImprovementStatus"
       },
-      "name" : "expansion-parameters-bhir",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "AdverseEvent"
-      }],
-      "reference" : {
-        "reference" : "AdverseEvent/fall-adverse-event-example-1"
-      },
-      "name" : "fall-adverse-event-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/ed-location-example-1"
-      },
-      "name" : "Florida General Hospital - Emergency Department",
-      "description" : "Florida General Hospital - Emergency Department",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/obs-location-example-1"
-      },
-      "name" : "Florida General Hospital - Observation",
-      "description" : "Florida General Hospital - Observation bed",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/mh-provider-example-1"
-      },
-      "name" : "Florida Mental Health Provider Associates",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/fl-medicaid-example-1"
-      },
-      "name" : "Florida MyACCESS - Medicaid",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Immunization"
-      }],
-      "reference" : {
-        "reference" : "Immunization/flu-vaccine-example-1"
-      },
-      "name" : "flu-vaccine-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Goal"
-      }],
-      "reference" : {
-        "reference" : "Goal/food-insecurity-example-1"
-      },
-      "name" : "food-insecurity-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/program-info"
-      },
-      "name" : "Grant Program ID and Number",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/grief-condition-example-1"
-      },
-      "name" : "grief-condition-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/hark-example-1"
-      },
-      "name" : "hark-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Procedure"
-      }],
-      "reference" : {
-        "reference" : "Procedure/harm-reduction-example-1"
-      },
-      "name" : "harm-reduction-example-1",
-      "exampleBoolean" : false
+      "name" : "ExampleMentalHealthObservationImprovementStatus",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1147,54 +683,21 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/heart-rate-example-1"
+        "reference" : "Observation/ExampleMentalHealthObservationTreatmentFollowupStatus"
       },
-      "name" : "heart-rate-example-1",
-      "exampleBoolean" : false
+      "name" : "ExampleMentalHealthObservationTreatmentFollowupStatus",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
+        "valueString" : "ServiceRequest"
       }],
       "reference" : {
-        "reference" : "Observation/height-example-1"
+        "reference" : "ServiceRequest/ExampleMentalHealthServiceRequest"
       },
-      "name" : "height-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/hemoglobin-a1c-example-1"
-      },
-      "name" : "hemoglobin-a1c-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Goal"
-      }],
-      "reference" : {
-        "reference" : "Goal/housing-insecurity-example-1"
-      },
-      "name" : "housing-insecurity-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Coverage"
-      }],
-      "reference" : {
-        "reference" : "Coverage/medicaid-coverage-example-1"
-      },
-      "name" : "medicaid-coverage-example-1",
-      "exampleBoolean" : false
+      "name" : "ExampleMentalHealthServiceRequest",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1202,9 +705,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/mental-health-clinical-note-types"
+        "reference" : "ValueSet/improvement-status-vs"
       },
-      "name" : "Mental Health Clinical Note Types",
+      "name" : "Improvement Status ValueSet",
+      "description" : "Allowed values for improvement status.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/MentalHealthImprovementStatus"
+      },
+      "name" : "Mental Health Improvement Status",
+      "description" : "A profile to capture the improvement status of a patient’s mental health condition.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/improvement-status"
+      },
+      "name" : "Mental Health Improvement Status",
+      "description" : "Codes representing the subjective improvement status of the patient.",
       "exampleBoolean" : false
     },
     {
@@ -1225,219 +753,22 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mental-health-referral"
+        "reference" : "StructureDefinition/MentalHealthReferralRequest"
       },
-      "name" : "Mental Health Referral",
-      "description" : "A FHIR profile for standardizing mental health referral requests in Nepal.",
+      "name" : "Mental Health Referral Request",
+      "description" : "A profile for capturing referrals to mental health services, such as psychiatry, including clinical justification.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DocumentReference"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "DocumentReference/mental-health-consult-note-example-1"
+        "reference" : "StructureDefinition/MentalHealthTreatmentFollowupStatus"
       },
-      "name" : "mental-health-consult-note-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DocumentReference"
-      }],
-      "reference" : {
-        "reference" : "DocumentReference/mental-health-discharge-summary-example-1"
-      },
-      "name" : "mental-health-discharge-summary-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DocumentReference"
-      }],
-      "reference" : {
-        "reference" : "DocumentReference/mental-health-hx-physical-example-1"
-      },
-      "name" : "mental-health-hx-physical-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DocumentReference"
-      }],
-      "reference" : {
-        "reference" : "DocumentReference/mental-health-procedure-example-1"
-      },
-      "name" : "mental-health-procedure-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DocumentReference"
-      }],
-      "reference" : {
-        "reference" : "DocumentReference/mental-health-progress-example-1"
-      },
-      "name" : "mental-health-progress-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/mental-health-provider-example-1"
-      },
-      "name" : "mental-health-provider-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationRequest"
-      }],
-      "reference" : {
-        "reference" : "MedicationRequest/metformin-discharge-med-example-1"
-      },
-      "name" : "metformin-discharge-med-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/no-morphine-preference-observation-example-1"
-      },
-      "name" : "no-morphine-preference-observation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/non-smoker-example-1"
-      },
-      "name" : "non-smoker-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/obs-encounter-example-2"
-      },
-      "name" : "obs-encounter-example-2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/oxygen-saturation-example-1"
-      },
-      "name" : "oxygen-saturation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/panic-attack-condition-example-1"
-      },
-      "name" : "panic-attack-condition-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationRequest"
-      }],
-      "reference" : {
-        "reference" : "MedicationRequest/paroxetine-discharge-med-example-1"
-      },
-      "name" : "paroxetine-discharge-med-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/pcp-encounter-example-4"
-      },
-      "name" : "pcp-encounter-example-4",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Practitioner"
-      }],
-      "reference" : {
-        "reference" : "Practitioner/pcp-provider-example-1"
-      },
-      "name" : "pcp-provider-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "AllergyIntolerance"
-      }],
-      "reference" : {
-        "reference" : "AllergyIntolerance/peanut-allergy-example-1"
-      },
-      "name" : "peanut-allergy-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "AllergyIntolerance"
-      }],
-      "reference" : {
-        "reference" : "AllergyIntolerance/penicillin-allergy-example-1"
-      },
-      "name" : "penicillin-allergy-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "QuestionnaireResponse"
-      }],
-      "reference" : {
-        "reference" : "QuestionnaireResponse/phq-9-example-1"
-      },
-      "name" : "phq-9-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/pregnancy-status-example-1"
-      },
-      "name" : "pregnancy-status-example-1",
+      "name" : "Mental Health Treatment Follow-up Status",
+      "description" : "A profile to capture a patient's compliance or follow-up status in ongoing mental health treatment.",
       "exampleBoolean" : false
     },
     {
@@ -1455,17 +786,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/provider-preference-observation-example-2"
-      },
-      "name" : "provider-preference-observation-example-2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ServiceRequest"
       }],
       "reference" : {
@@ -1473,18 +793,7 @@
       },
       "name" : "Referral to Psychiatrist",
       "description" : "A referral order for psychiatric evaluation for a patient with depressive disorder.",
-      "exampleCanonical" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/respiratory-rate-example-1"
-      },
-      "name" : "respiratory-rate-example-1",
-      "exampleBoolean" : false
+      "exampleCanonical" : "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthReferralRequest"
     },
     {
       "extension" : [{
@@ -1497,105 +806,6 @@
       "name" : "Sample Patient",
       "description" : "An example patient record mapped from a capture system.",
       "exampleCanonical" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-patient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Consent"
-      }],
-      "reference" : {
-        "reference" : "Consent/SDOHCC-ConsentInformationDisclosure-example-1"
-      },
-      "name" : "SDOHCC-ConsentInformationDisclosure-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ServiceRequest"
-      }],
-      "reference" : {
-        "reference" : "ServiceRequest/ServiceRequest-peer-mentoring-example-1"
-      },
-      "name" : "ServiceRequest-peer-mentoring-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/sexual-orientation-example-1"
-      },
-      "name" : "sexual-orientation-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Goal"
-      }],
-      "reference" : {
-        "reference" : "Goal/social-connection-example-1"
-      },
-      "name" : "social-connection-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/substance-abuse-condition-example-1"
-      },
-      "name" : "substance-abuse-condition-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/temperature-example-1"
-      },
-      "name" : "temperature-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Goal"
-      }],
-      "reference" : {
-        "reference" : "Goal/transportation-insecurity-example-1"
-      },
-      "name" : "transportation-insecurity-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/usual-work-example-1"
-      },
-      "name" : "usual-work-example-1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/weight-example-1"
-      },
-      "name" : "weight-example-1",
-      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

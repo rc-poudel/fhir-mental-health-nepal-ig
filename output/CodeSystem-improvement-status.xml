@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="improvement-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem improvement-status</b></p><a name="improvement-status"> </a><a name="hcimprovement-status"> </a><a name="improvement-status-en-US"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/improvement-status</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">improving<a name="improvement-status-improving"> </a></td><td>Improving</td><td>Patient shows improvement.</td></tr><tr><td style="white-space:nowrap">stable<a name="improvement-status-stable"> </a></td><td>Stable</td><td>No change in condition.</td></tr><tr><td style="white-space:nowrap">worsening<a name="improvement-status-worsening"> </a></td><td>Worsening</td><td>Patient condition has deteriorated.</td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/CodeSystem/improvement-status"/>
+  <version value="1.0.1"/>
+  <name value="ImprovementStatus"/>
+  <title value="Mental Health Improvement Status"/>
+  <status value="active"/>
+  <date value="2025-05-20T08:23:51+05:45"/>
+  <publisher value="https://rcp.com.np"/>
+  <contact>
+    <name value="https://rcp.com.np"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://rcp.com.np"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="RC Poudel"/>
+    <telecom>
+      <system value="email"/>
+      <value value="rmchndrapdl@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing the subjective improvement status of the patient."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NP"/>
+      <display value="Nepal"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Used by permission of HL7 International, all rights reserved Creative Commons License"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="improving"/>
+    <display value="Improving"/>
+    <definition value="Patient shows improvement."/>
+  </concept>
+  <concept>
+    <code value="stable"/>
+    <display value="Stable"/>
+    <definition value="No change in condition."/>
+  </concept>
+  <concept>
+    <code value="worsening"/>
+    <display value="Worsening"/>
+    <definition value="Patient condition has deteriorated."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,60 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "improvement-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem improvement-status</b></p><a name=\"improvement-status\"> </a><a name=\"hcimprovement-status\"> </a><a name=\"improvement-status-en-US\"> </a><p>This  code system <code>http://example.org/fhir/CodeSystem/improvement-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">improving<a name=\"improvement-status-improving\"> </a></td><td>Improving</td><td>Patient shows improvement.</td></tr><tr><td style=\"white-space:nowrap\">stable<a name=\"improvement-status-stable\"> </a></td><td>Stable</td><td>No change in condition.</td></tr><tr><td style=\"white-space:nowrap\">worsening<a name=\"improvement-status-worsening\"> </a></td><td>Worsening</td><td>Patient condition has deteriorated.</td></tr></table></div>"
+  },
+  "url" : "http://example.org/fhir/CodeSystem/improvement-status",
+  "version" : "1.0.1",
+  "name" : "ImprovementStatus",
+  "title" : "Mental Health Improvement Status",
+  "status" : "active",
+  "date" : "2025-05-20T08:23:51+05:45",
+  "publisher" : "https://rcp.com.np",
+  "contact" : [{
+    "name" : "https://rcp.com.np",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://rcp.com.np"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Codes representing the subjective improvement status of the patient.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "improving",
+    "display" : "Improving",
+    "definition" : "Patient shows improvement."
+  },
+  {
+    "code" : "stable",
+    "display" : "Stable",
+    "definition" : "No change in condition."
+  },
+  {
+    "code" : "worsening",
+    "display" : "Worsening",
+    "definition" : "Patient condition has deteriorated."
+  }]
+}

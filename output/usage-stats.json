@@ -5,64 +5,6 @@
   "jurisdiction": "NP",
   "extensions": [
     {
-      "url": "http://hl7.org/fhir/us/bhp/StructureDefinition/program-info",
-      "title": "Grant Program ID and Number",
-      "types": [
-        "string",
-        "string",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
-      ]
-    },
-    {
       "url": "https://fhir.health.np/mentalhealth/StructureDefinition/ethnic-code",
       "title": "Ethnic Code",
       "types": [
@@ -71,16 +13,22 @@
     }
   ],
   "profiles": {
-    "Condition": [
+    "Observation": [
       {
-        "url": "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-condition",
-        "title": "Primary Diagnosis Condition with any ICD-11 Mental Health Code"
+        "url": "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthTreatmentFollowupStatus",
+        "title": "Mental Health Treatment Follow-up Status"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral",
-        "title": "Mental Health Referral"
+        "url": "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthReferralRequest",
+        "title": "Mental Health Referral Request"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-condition",
+        "title": "Primary Diagnosis Condition with any ICD-11 Mental Health Code"
       }
     ],
     "Patient": [
@@ -91,9 +39,6 @@
     ]
   },
   "usage": {
-    "http://hl7.org/fhir/StructureDefinition/display": [
-      "QuestionnaireResponse.questionnaire"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -107,6 +52,9 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -133,30 +81,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
-    ],
-    "http://hl7.org/fhir/us/bhp/StructureDefinition/bh-grant-info": [
-      "Observation"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication-adherence": [
-      "MedicationRequest"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/us/military-service/StructureDefinition/military-service-veteran-status": [
-      "Patient"
     ],
     "https://fhir.health.np/mentalhealth/StructureDefinition/ethnic-code": [
       "Patient"

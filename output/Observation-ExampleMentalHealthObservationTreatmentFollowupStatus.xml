@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ExampleMentalHealthObservationTreatmentFollowupStatus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation ExampleMentalHealthObservationTreatmentFollowupStatus</b></p><a name="ExampleMentalHealthObservationTreatmentFollowupStatus"> </a><a name="hcExampleMentalHealthObservationTreatmentFollowupStatus"> </a><a name="ExampleMentalHealthObservationTreatmentFollowupStatus-en-US"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category social-history}">Social History</span></p><p><b>code</b>: <span title="Codes:">Treatment Compliance</span></p><p><b>subject</b>: <a href="Patient/123">Patient/123</a></p><p><b>effective</b>: 2025-05-19</p><p><b>value</b>: <span title="Codes:">Regular</span></p><p><b>note</b>: Patient reports taking medication regularly.</p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="social-history"/>
+    </coding>
+  </category>
+  <code>
+    <text value="Treatment Compliance"/>
+  </code>
+  <subject>
+    <reference value="Patient/123"/>
+  </subject>
+  <effectiveDateTime value="2025-05-19"/>
+  <valueCodeableConcept>
+    <text value="Regular"/>
+  </valueCodeableConcept>
+  <note>
+    <text value="Patient reports taking medication regularly."/>
+  </note>
+</Observation>

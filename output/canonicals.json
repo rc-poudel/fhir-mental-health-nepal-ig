@@ -1,31 +1,17 @@
 [
   {
-    "id" : "bh-funding-type-codes",
+    "id" : "improvement-status",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes",
+    "url" : "http://example.org/fhir/CodeSystem/improvement-status",
     "version" : "1.0.1",
-    "name" : "BehavioralHealthProgramFundingTypeCodes"
+    "name" : "ImprovementStatus"
   },
   {
-    "id" : "program-info",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/us/bhp/StructureDefinition/program-info",
-    "version" : "1.0.1",
-    "name" : "GrantProgramIdAndNumber"
-  },
-  {
-    "id" : "bh-funding-types",
+    "id" : "improvement-status-vs",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types",
+    "url" : "http://example.org/fhir/ValueSet/improvement-status",
     "version" : "1.0.1",
-    "name" : "BehavioralHealthProgramFundingTypes"
-  },
-  {
-    "id" : "mental-health-clinical-note-types",
-    "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types",
-    "version" : "1.0.1",
-    "name" : "MentalHealthClinicalNoteTypes"
+    "name" : "ImprovementStatusVS"
   },
   {
     "id" : "ethnic-code-cs",
@@ -42,6 +28,27 @@
     "name" : "FHIRMentalHealthIG"
   },
   {
+    "id" : "MentalHealthImprovementStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthImprovementStatus",
+    "version" : "1.0.1",
+    "name" : "MentalHealthImprovementStatus"
+  },
+  {
+    "id" : "MentalHealthReferralRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthReferralRequest",
+    "version" : "1.0.1",
+    "name" : "MentalHealthReferralRequest"
+  },
+  {
+    "id" : "MentalHealthTreatmentFollowupStatus",
+    "type" : "StructureDefinition",
+    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthTreatmentFollowupStatus",
+    "version" : "1.0.1",
+    "name" : "MentalHealthTreatmentFollowupStatus"
+  },
+  {
     "id" : "ethnic-code",
     "type" : "StructureDefinition",
     "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/ethnic-code",
@@ -54,13 +61,6 @@
     "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-condition",
     "version" : "1.0.1",
     "name" : "PrimaryDiagnosisCondition"
-  },
-  {
-    "id" : "mental-health-referral",
-    "type" : "StructureDefinition",
-    "url" : "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral",
-    "version" : "1.0.1",
-    "name" : "MentalHealthReferral"
   },
   {
     "id" : "mental-patient",

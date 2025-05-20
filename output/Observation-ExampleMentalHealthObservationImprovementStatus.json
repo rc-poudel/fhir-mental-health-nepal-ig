@@ -1,0 +1,19 @@
+{
+  "resourceType" : "Observation",
+  "id" : "ExampleMentalHealthObservationImprovementStatus",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ExampleMentalHealthObservationImprovementStatus</b></p><a name=\"ExampleMentalHealthObservationImprovementStatus\"> </a><a name=\"hcExampleMentalHealthObservationImprovementStatus\"> </a><a name=\"ExampleMentalHealthObservationImprovementStatus-en-US\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">Improvement Status</span></p><p><b>subject</b>: <a href=\"Patient/123\">Patient/123</a></p><p><b>effective</b>: 2025-05-19</p><p><b>value</b>: <span title=\"Codes:\">Improving</span></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "text" : "Improvement Status"
+  },
+  "subject" : {
+    "reference" : "Patient/123"
+  },
+  "effectiveDateTime" : "2025-05-19",
+  "valueCodeableConcept" : {
+    "text" : "Improving"
+  }
+}

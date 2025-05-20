@@ -13,7 +13,7 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
   <name value="FHIRMentalHealthIG"/>
   <title value="Mental Health FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2025-05-18T07:55:32+05:45"/>
+  <date value="2025-05-20T08:23:51+05:45"/>
   <publisher value="https://rcp.com.np"/>
   <contact>
     <name value="https://rcp.com.np"/>
@@ -468,306 +468,6 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/ace-example-1"/>
-      </reference>
-      <name value="ace-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="RelatedPerson"/>
-      </extension>
-      <reference>
-        <reference value="RelatedPerson/adult-child-relatedperson-example-1"/>
-      </reference>
-      <name value="adult-child-relatedperson-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Procedure"/>
-      </extension>
-      <reference>
-        <reference value="Procedure/alcohol-prevetion-education-example-1"/>
-      </reference>
-      <name value="alcohol-prevetion-education-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/alcohol-use-identification-test-1"/>
-      </reference>
-      <name value="alcohol-use-identification-test-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/anxiety-assessment-observation-example-1"/>
-      </reference>
-      <name value="anxiety-assessment-observation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationRequest"/>
-      </extension>
-      <reference>
-        <reference value="MedicationRequest/ativan-discharge-med-example-1"/>
-      </reference>
-      <name value="ativan-discharge-med-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/average-blood-pressure-example-1"/>
-      </reference>
-      <name value="average-blood-pressure-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/barthel-index-functional-status-example-1"/>
-      </reference>
-      <name value="barthel-index-functional-status-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/bh-funding-type-codes"/>
-      </reference>
-      <name value="Behavioral Health Program Funding Type Codes"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/bh-funding-types"/>
-      </reference>
-      <name value="Behavioral Health Program Funding Types"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Medication"/>
-      </extension>
-      <reference>
-        <reference value="Medication/benzo-medication-example-1"/>
-      </reference>
-      <name value="benzo-medication-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationRequest"/>
-      </extension>
-      <reference>
-        <reference value="MedicationRequest/benzo-order-example-1"/>
-      </reference>
-      <name value="benzo-order-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/bh-grant-info-observation-example-1"/>
-      </reference>
-      <name value="bh-grant-info-observation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/bh-patient-example"/>
-      </reference>
-      <name value="bh-patient-example"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Procedure"/>
-      </extension>
-      <reference>
-        <reference value="Procedure/bh-prevention-education-program-example-1"/>
-      </reference>
-      <name value="bh-prevention-education-program-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/BHP-QuestionnaireResponsePRAPAREExample-1"/>
-      </reference>
-      <name value="BHP-QuestionnaireResponsePRAPAREExample-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/blood-pressure-example-1"/>
-      </reference>
-      <name value="blood-pressure-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationRequest"/>
-      </extension>
-      <reference>
-        <reference value="MedicationRequest/bupropion-discharge-med-example-1"/>
-      </reference>
-      <name value="bupropion-discharge-med-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationDispense"/>
-      </extension>
-      <reference>
-        <reference value="MedicationDispense/bupropion-dispense-example-1"/>
-      </reference>
-      <name value="bupropion-dispense-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/C-SSRS-example-1"/>
-      </reference>
-      <name value="C-SSRS-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/chest-pain-condition-example-1"/>
-      </reference>
-      <name value="chest-pain-condition-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/cognitive-status-observation-example-3"/>
-      </reference>
-      <name value="cognitive-status-observation-example-3"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/depression-condition-example-1"/>
-      </reference>
-      <name value="depression-condition-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/diabetes-condition-example-1"/>
-      </reference>
-      <name value="diabetes-condition-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/disability-status-observation-example-1"/>
-      </reference>
-      <name value="disability-status-observation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/discharge-encounter-example-3"/>
-      </reference>
-      <name value="discharge-encounter-example-3"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/ed-encounter-example-1"/>
-      </reference>
-      <name value="ed-encounter-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/ed-physician-example-1"/>
-      </reference>
-      <name value="ed-physician-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/ekg-impression-report-example-1"/>
-      </reference>
-      <name value="ekg-impression-report-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ekg-observation-example-1"/>
-      </reference>
-      <name value="ekg-observation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -801,16 +501,6 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CareTeam"/>
-      </extension>
-      <reference>
-        <reference value="CareTeam/bh-care-team-example-1"/>
-      </reference>
-      <name value="Example CareTeam"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Condition"/>
       </extension>
       <reference>
@@ -822,184 +512,65 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Parameters"/>
+        <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Parameters/expansion-parameters-bhir"/>
+        <reference value="Observation/ExampleMentalHealthObservationImprovementStatus"/>
       </reference>
-      <name value="expansion-parameters-bhir"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="AdverseEvent"/>
-      </extension>
-      <reference>
-        <reference value="AdverseEvent/fall-adverse-event-example-1"/>
-      </reference>
-      <name value="fall-adverse-event-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/ed-location-example-1"/>
-      </reference>
-      <name value="Florida General Hospital - Emergency Department"/>
-      <description value="Florida General Hospital - Emergency Department"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/obs-location-example-1"/>
-      </reference>
-      <name value="Florida General Hospital - Observation"/>
-      <description value="Florida General Hospital - Observation bed"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/mh-provider-example-1"/>
-      </reference>
-      <name value="Florida Mental Health Provider Associates"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/fl-medicaid-example-1"/>
-      </reference>
-      <name value="Florida MyACCESS - Medicaid"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Immunization"/>
-      </extension>
-      <reference>
-        <reference value="Immunization/flu-vaccine-example-1"/>
-      </reference>
-      <name value="flu-vaccine-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Goal"/>
-      </extension>
-      <reference>
-        <reference value="Goal/food-insecurity-example-1"/>
-      </reference>
-      <name value="food-insecurity-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/program-info"/>
-      </reference>
-      <name value="Grant Program ID and Number"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/grief-condition-example-1"/>
-      </reference>
-      <name value="grief-condition-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/hark-example-1"/>
-      </reference>
-      <name value="hark-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Procedure"/>
-      </extension>
-      <reference>
-        <reference value="Procedure/harm-reduction-example-1"/>
-      </reference>
-      <name value="harm-reduction-example-1"/>
-      <exampleBoolean value="false"/>
+      <name value="ExampleMentalHealthObservationImprovementStatus"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/heart-rate-example-1"/>
+        <reference value="Observation/ExampleMentalHealthObservationTreatmentFollowupStatus"/>
       </reference>
-      <name value="heart-rate-example-1"/>
-      <exampleBoolean value="false"/>
+      <name value="ExampleMentalHealthObservationTreatmentFollowupStatus"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
+        <valueString value="ServiceRequest"/>
       </extension>
       <reference>
-        <reference value="Observation/height-example-1"/>
+        <reference value="ServiceRequest/ExampleMentalHealthServiceRequest"/>
       </reference>
-      <name value="height-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/hemoglobin-a1c-example-1"/>
-      </reference>
-      <name value="hemoglobin-a1c-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Goal"/>
-      </extension>
-      <reference>
-        <reference value="Goal/housing-insecurity-example-1"/>
-      </reference>
-      <name value="housing-insecurity-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Coverage"/>
-      </extension>
-      <reference>
-        <reference value="Coverage/medicaid-coverage-example-1"/>
-      </reference>
-      <name value="medicaid-coverage-example-1"/>
-      <exampleBoolean value="false"/>
+      <name value="ExampleMentalHealthServiceRequest"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/mental-health-clinical-note-types"/>
+        <reference value="ValueSet/improvement-status-vs"/>
       </reference>
-      <name value="Mental Health Clinical Note Types"/>
+      <name value="Improvement Status ValueSet"/>
+      <description value="Allowed values for improvement status."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/MentalHealthImprovementStatus"/>
+      </reference>
+      <name value="Mental Health Improvement Status"/>
+      <description value="A profile to capture the improvement status of a patient’s mental health condition."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/improvement-status"/>
+      </reference>
+      <name value="Mental Health Improvement Status"/>
+      <description value="Codes representing the subjective improvement status of the patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1018,200 +589,21 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mental-health-referral"/>
+        <reference value="StructureDefinition/MentalHealthReferralRequest"/>
       </reference>
-      <name value="Mental Health Referral"/>
-      <description value="A FHIR profile for standardizing mental health referral requests in Nepal."/>
+      <name value="Mental Health Referral Request"/>
+      <description value="A profile for capturing referrals to mental health services, such as psychiatry, including clinical justification."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DocumentReference"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="DocumentReference/mental-health-consult-note-example-1"/>
+        <reference value="StructureDefinition/MentalHealthTreatmentFollowupStatus"/>
       </reference>
-      <name value="mental-health-consult-note-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DocumentReference"/>
-      </extension>
-      <reference>
-        <reference value="DocumentReference/mental-health-discharge-summary-example-1"/>
-      </reference>
-      <name value="mental-health-discharge-summary-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DocumentReference"/>
-      </extension>
-      <reference>
-        <reference value="DocumentReference/mental-health-hx-physical-example-1"/>
-      </reference>
-      <name value="mental-health-hx-physical-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DocumentReference"/>
-      </extension>
-      <reference>
-        <reference value="DocumentReference/mental-health-procedure-example-1"/>
-      </reference>
-      <name value="mental-health-procedure-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DocumentReference"/>
-      </extension>
-      <reference>
-        <reference value="DocumentReference/mental-health-progress-example-1"/>
-      </reference>
-      <name value="mental-health-progress-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/mental-health-provider-example-1"/>
-      </reference>
-      <name value="mental-health-provider-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationRequest"/>
-      </extension>
-      <reference>
-        <reference value="MedicationRequest/metformin-discharge-med-example-1"/>
-      </reference>
-      <name value="metformin-discharge-med-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/no-morphine-preference-observation-example-1"/>
-      </reference>
-      <name value="no-morphine-preference-observation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/non-smoker-example-1"/>
-      </reference>
-      <name value="non-smoker-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/obs-encounter-example-2"/>
-      </reference>
-      <name value="obs-encounter-example-2"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/oxygen-saturation-example-1"/>
-      </reference>
-      <name value="oxygen-saturation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/panic-attack-condition-example-1"/>
-      </reference>
-      <name value="panic-attack-condition-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicationRequest"/>
-      </extension>
-      <reference>
-        <reference value="MedicationRequest/paroxetine-discharge-med-example-1"/>
-      </reference>
-      <name value="paroxetine-discharge-med-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/pcp-encounter-example-4"/>
-      </reference>
-      <name value="pcp-encounter-example-4"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/pcp-provider-example-1"/>
-      </reference>
-      <name value="pcp-provider-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="AllergyIntolerance"/>
-      </extension>
-      <reference>
-        <reference value="AllergyIntolerance/peanut-allergy-example-1"/>
-      </reference>
-      <name value="peanut-allergy-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="AllergyIntolerance"/>
-      </extension>
-      <reference>
-        <reference value="AllergyIntolerance/penicillin-allergy-example-1"/>
-      </reference>
-      <name value="penicillin-allergy-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="QuestionnaireResponse"/>
-      </extension>
-      <reference>
-        <reference value="QuestionnaireResponse/phq-9-example-1"/>
-      </reference>
-      <name value="phq-9-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/pregnancy-status-example-1"/>
-      </reference>
-      <name value="pregnancy-status-example-1"/>
+      <name value="Mental Health Treatment Follow-up Status"/>
+      <description value="A profile to capture a patient's compliance or follow-up status in ongoing mental health treatment."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1227,16 +619,6 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/provider-preference-observation-example-2"/>
-      </reference>
-      <name value="provider-preference-observation-example-2"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ServiceRequest"/>
       </extension>
       <reference>
@@ -1244,17 +626,7 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
       </reference>
       <name value="Referral to Psychiatrist"/>
       <description value="A referral order for psychiatric evaluation for a patient with depressive disorder."/>
-      <exampleCanonical value="https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/respiratory-rate-example-1"/>
-      </reference>
-      <name value="respiratory-rate-example-1"/>
-      <exampleBoolean value="false"/>
+      <exampleCanonical value="https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthReferralRequest"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1266,96 +638,6 @@ Originally developed as part of the FHIR standardization efforts, this guide evo
       <name value="Sample Patient"/>
       <description value="An example patient record mapped from a capture system."/>
       <exampleCanonical value="https://fhir.health.np/mentalhealth/StructureDefinition/mental-patient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Consent"/>
-      </extension>
-      <reference>
-        <reference value="Consent/SDOHCC-ConsentInformationDisclosure-example-1"/>
-      </reference>
-      <name value="SDOHCC-ConsentInformationDisclosure-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/ServiceRequest-peer-mentoring-example-1"/>
-      </reference>
-      <name value="ServiceRequest-peer-mentoring-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/sexual-orientation-example-1"/>
-      </reference>
-      <name value="sexual-orientation-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Goal"/>
-      </extension>
-      <reference>
-        <reference value="Goal/social-connection-example-1"/>
-      </reference>
-      <name value="social-connection-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/substance-abuse-condition-example-1"/>
-      </reference>
-      <name value="substance-abuse-condition-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/temperature-example-1"/>
-      </reference>
-      <name value="temperature-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Goal"/>
-      </extension>
-      <reference>
-        <reference value="Goal/transportation-insecurity-example-1"/>
-      </reference>
-      <name value="transportation-insecurity-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/usual-work-example-1"/>
-      </reference>
-      <name value="usual-work-example-1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/weight-example-1"/>
-      </reference>
-      <name value="weight-example-1"/>
-      <exampleBoolean value="false"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

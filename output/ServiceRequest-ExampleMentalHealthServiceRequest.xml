@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="ExampleMentalHealthServiceRequest"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ServiceRequest ExampleMentalHealthServiceRequest</b></p><a name="ExampleMentalHealthServiceRequest"> </a><a name="hcExampleMentalHealthServiceRequest"> </a><a name="ExampleMentalHealthServiceRequest-en-US"> </a><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/servicerequest-category referral}">Referral</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 306206005}">Referral to psychiatrist</span></p><p><b>subject</b>: <a href="Patient/123">Patient/123</a></p><p><b>requester</b>: <a href="Practitioner/456">Practitioner/456</a></p><p><b>reasonCode</b>: <span title="Codes:{http://snomed.info/sct 271327008}">Depressive disorder</span></p></div>
+  </text>
+  <status value="active"/>
+  <intent value="order"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/servicerequest-category"/>
+      <code value="referral"/>
+      <display value="Referral"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="306206005"/>
+      <display value="Referral to psychiatrist"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/123"/>
+  </subject>
+  <requester>
+    <reference value="Practitioner/456"/>
+  </requester>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="271327008"/>
+      <display value="Depressive disorder"/>
+    </coding>
+  </reasonCode>
+</ServiceRequest>

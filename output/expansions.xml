@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="898b6483-6e20-4147-ad3d-18849a6d5946"/>
+  <id value="0e3adc45-22d1-4ad0-a08c-136488be8961"/>
   <meta>
-    <lastUpdated value="2025-05-18T07:55:58.391+05:45"/>
+    <lastUpdated value="2025-05-20T08:24:31.237+05:45"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -88,7 +88,7 @@
         <name value="EthnicCodeVS"/>
         <title value="Ethnic Code ValueSet"/>
         <status value="active"/>
-        <date value="2025-05-18T07:55:32+05:45"/>
+        <date value="2025-05-20T08:23:51+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -97,8 +97,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c0e6ef64-b56c-4b08-ad27-6b97761619ec"/>
-          <timestamp value="2025-05-18T08:00:55+05:45"/>
+          <identifier value="urn:uuid:2a61951a-f0f3-442b-8620-76100c5f3d4d"/>
+          <timestamp value="2025-05-20T08:25:08+05:45"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -156,7 +156,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types"/>
+    <fullUrl value="http://example.org/fhir/ValueSet/improvement-status"/>
     <resource>
       <ValueSet>
         <text>
@@ -166,7 +166,7 @@
               <b>ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-bh-funding-type-codes.html">codesystem Behavioral Health Program Funding Type Codes v1.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-improvement-status.html">codesystem Mental Health Improvement Status v1.0.1 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
@@ -186,42 +186,42 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes-discretionary"> </a>  
-                  <a href="CodeSystem-bh-funding-type-codes.html#bh-funding-type-codes-discretionary">discretionary</a>
+                  <a name="x-http://example.org/fhir/CodeSystem/improvement-status-improving"> </a>  
+                  <a href="CodeSystem-improvement-status.html#improvement-status-improving">improving</a>
                 </td>
-                <td>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</td>
-                <td>Discretionary Funding</td>
+                <td>http://example.org/fhir/CodeSystem/improvement-status</td>
+                <td>Improving</td>
                 <td>
                   <div>
-                    <p>Discretionary Funding</p>
+                    <p>Patient shows improvement.</p>
 
                   </div>
                 </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes-grant-funding-type"> </a>  
-                  <a href="CodeSystem-bh-funding-type-codes.html#bh-funding-type-codes-grant-funding-type">grant-funding-type</a>
+                  <a name="x-http://example.org/fhir/CodeSystem/improvement-status-stable"> </a>  
+                  <a href="CodeSystem-improvement-status.html#improvement-status-stable">stable</a>
                 </td>
-                <td>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</td>
-                <td>Grant Funding Type</td>
+                <td>http://example.org/fhir/CodeSystem/improvement-status</td>
+                <td>Stable</td>
                 <td>
                   <div>
-                    <p>Grant Funding Type</p>
+                    <p>No change in condition.</p>
 
                   </div>
                 </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes-funding-program-info"> </a>  
-                  <a href="CodeSystem-bh-funding-type-codes.html#bh-funding-type-codes-funding-program-info">funding-program-info</a>
+                  <a name="x-http://example.org/fhir/CodeSystem/improvement-status-worsening"> </a>  
+                  <a href="CodeSystem-improvement-status.html#improvement-status-worsening">worsening</a>
                 </td>
-                <td>http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes</td>
-                <td>Program Funding Information</td>
+                <td>http://example.org/fhir/CodeSystem/improvement-status</td>
+                <td>Worsening</td>
                 <td>
                   <div>
-                    <p>Program Funding Information</p>
+                    <p>Patient condition has deteriorated.</p>
 
                   </div>
                 </td>
@@ -229,12 +229,12 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/us/bhp/ValueSet/bh-funding-types"/>
+        <url value="http://example.org/fhir/ValueSet/improvement-status"/>
         <version value="1.0.1"/>
-        <name value="BehavioralHealthProgramFundingTypes"/>
-        <title value="Behavioral Health Program Funding Types"/>
-        <status value="draft"/>
-        <date value="2025-05-18T07:55:32+05:45"/>
+        <name value="ImprovementStatusVS"/>
+        <title value="Improvement Status ValueSet"/>
+        <status value="active"/>
+        <date value="2025-05-20T08:23:51+05:45"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -243,8 +243,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d57d6d76-445f-41eb-b4b9-50ff05a62ee9"/>
-          <timestamp value="2025-05-18T08:00:55+05:45"/>
+          <identifier value="urn:uuid:aba77f1f-7163-4116-b0ba-d43858f88896"/>
+          <timestamp value="2025-05-20T08:25:08+05:45"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -265,164 +265,22 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes|1.0.1"/>
+            <valueUri value="http://example.org/fhir/CodeSystem/improvement-status|1.0.1"/>
           </parameter>
           <contains>
-            <system value="http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes"/>
-            <code value="discretionary"/>
-            <display value="Discretionary Funding"/>
+            <system value="http://example.org/fhir/CodeSystem/improvement-status"/>
+            <code value="improving"/>
+            <display value="Improving"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes"/>
-            <code value="grant-funding-type"/>
-            <display value="Grant Funding Type"/>
+            <system value="http://example.org/fhir/CodeSystem/improvement-status"/>
+            <code value="stable"/>
+            <display value="Stable"/>
           </contains>
           <contains>
-            <system value="http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes"/>
-            <code value="funding-program-info"/>
-            <display value="Program Funding Information"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id">
-              <b>ValueSet </b>
-            </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on Loinc v2.80</p>
-            <p>This value set contains 5 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display (en-US)</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://loinc.org-34785-6"> </a>  
-                  <a href="https://loinc.org/34785-6/">34785-6</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Mental health Consult note</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://loinc.org-78263-1"> </a>  
-                  <a href="https://loinc.org/78263-1/">78263-1</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Mental health Discharge summary</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://loinc.org-78306-8"> </a>  
-                  <a href="https://loinc.org/78306-8/">78306-8</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Mental health History and physical note</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://loinc.org-78472-8"> </a>  
-                  <a href="https://loinc.org/78472-8/">78472-8</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Mental health procedure note</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://loinc.org-34904-3"> </a>  
-                  <a href="https://loinc.org/34904-3/">34904-3</a>
-                </td>
-                <td>http://loinc.org</td>
-                <td>Mental health Progress note</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/us/bhp/ValueSet/mental-health-clinical-note-types"/>
-        <version value="1.0.1"/>
-        <name value="MentalHealthClinicalNoteTypes"/>
-        <title value="Mental Health Clinical Note Types"/>
-        <status value="draft"/>
-        <date value="2025-05-18T07:55:32+05:45"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NP"/>
-            <display value="Nepal"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:eafc36c7-3919-443a-ac7f-30bed10633d3"/>
-          <timestamp value="2025-05-18T08:00:55+05:45"/>
-          <total value="5"/>
-          <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="en-US"/>
-          </parameter>
-          <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
-          </parameter>
-          <parameter>
-            <name value="offset"/>
-            <valueInteger value="0"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.80"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://loinc.org|2.80"/>
-          </parameter>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="34785-6"/>
-            <display value="Mental health Consult note"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="78263-1"/>
-            <display value="Mental health Discharge summary"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="78306-8"/>
-            <display value="Mental health History and physical note"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="78472-8"/>
-            <display value="Mental health procedure note"/>
-          </contains>
-          <contains>
-            <system value="http://loinc.org"/>
-            <code value="34904-3"/>
-            <display value="Mental health Progress note"/>
+            <system value="http://example.org/fhir/CodeSystem/improvement-status"/>
+            <code value="worsening"/>
+            <display value="Worsening"/>
           </contains>
         </expansion>
       </ValueSet>

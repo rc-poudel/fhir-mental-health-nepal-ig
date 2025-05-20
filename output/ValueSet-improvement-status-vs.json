@@ -1,0 +1,48 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "improvement-status-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet improvement-status-vs</b></p><a name=\"improvement-status-vs\"> </a><a name=\"hcimprovement-status-vs\"> </a><a name=\"improvement-status-vs-en-US\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-improvement-status.html\"><code>http://example.org/fhir/CodeSystem/improvement-status</code></a></li></ul></div>"
+  },
+  "url" : "http://example.org/fhir/ValueSet/improvement-status",
+  "version" : "1.0.1",
+  "name" : "ImprovementStatusVS",
+  "title" : "Improvement Status ValueSet",
+  "status" : "active",
+  "date" : "2025-05-20T08:23:51+05:45",
+  "publisher" : "https://rcp.com.np",
+  "contact" : [{
+    "name" : "https://rcp.com.np",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://rcp.com.np"
+    },
+    {
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com"
+    }]
+  },
+  {
+    "name" : "RC Poudel",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "rmchndrapdl@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Allowed values for improvement status.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NP",
+      "display" : "Nepal"
+    }]
+  }],
+  "copyright" : "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org/fhir/CodeSystem/improvement-status"
+    }]
+  }
+}

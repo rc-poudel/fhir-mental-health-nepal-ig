@@ -1,3 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://hl7.org/fhir/us/bhp/CodeSystem/bh-funding-type-codes,1.0.1,draft,,BehavioralHealthProgramFundingTypeCodes,Behavioral Health Program Funding Type Codes,"",
+http://example.org/fhir/CodeSystem/improvement-status,1.0.1,active,,ImprovementStatus,Mental Health Improvement Status,"Codes representing the subjective improvement status of the patient.",
 https://fhir.health.np/mentalhealth/CodeSystem/ethnic-code-cs,1.0.1,active,,EthnicCodeCS,Ethnic Code,"जाति कोडहरू: दलित, जनजाती, मधेसी, मुस्लिम, ब्राह्मण/क्षेत्री, अन्य",

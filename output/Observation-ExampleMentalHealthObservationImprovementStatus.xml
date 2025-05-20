@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ExampleMentalHealthObservationImprovementStatus"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation ExampleMentalHealthObservationImprovementStatus</b></p><a name="ExampleMentalHealthObservationImprovementStatus"> </a><a name="hcExampleMentalHealthObservationImprovementStatus"> </a><a name="ExampleMentalHealthObservationImprovementStatus-en-US"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:">Improvement Status</span></p><p><b>subject</b>: <a href="Patient/123">Patient/123</a></p><p><b>effective</b>: 2025-05-19</p><p><b>value</b>: <span title="Codes:">Improving</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <text value="Improvement Status"/>
+  </code>
+  <subject>
+    <reference value="Patient/123"/>
+  </subject>
+  <effectiveDateTime value="2025-05-19"/>
+  <valueCodeableConcept>
+    <text value="Improving"/>
+  </valueCodeableConcept>
+</Observation>

@@ -12,13 +12,13 @@
   fhir:id [ fhir:v "ExampleReferralToPsychiatrist"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral"^^xsd:anyURI ;
-       fhir:link <https://fhir.health.np/mentalhealth/StructureDefinition/mental-health-referral>
+       fhir:v "https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthReferralRequest"^^xsd:anyURI ;
+       fhir:link <https://fhir.health.np/mentalhealth/StructureDefinition/MentalHealthReferralRequest>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest ExampleReferralToPsychiatrist</b></p><a name=\"ExampleReferralToPsychiatrist\"> </a><a name=\"hcExampleReferralToPsychiatrist\"> </a><a name=\"ExampleReferralToPsychiatrist-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mental-health-referral.html\">Mental Health Referral</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/servicerequest-category referral}\">Referral</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 306206005}\">Referral to psychiatrist</span></p><p><b>subject</b>: <a href=\"Patient/123\">Patient/123</a></p><p><b>requester</b>: <a href=\"Practitioner/456\">Practitioner/456</a></p><p><b>performer</b>: <a href=\"Practitioner/789\">Practitioner/789</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 271327008}\">Depressive disorder</span></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest ExampleReferralToPsychiatrist</b></p><a name=\"ExampleReferralToPsychiatrist\"> </a><a name=\"hcExampleReferralToPsychiatrist\"> </a><a name=\"ExampleReferralToPsychiatrist-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MentalHealthReferralRequest.html\">Mental Health Referral Request</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/servicerequest-category referral}\">Referral</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 306206005}\">Referral to psychiatrist</span></p><p><b>subject</b>: <a href=\"Patient/123\">Patient/123</a></p><p><b>requester</b>: <a href=\"Practitioner/456\">Practitioner/456</a></p><p><b>performer</b>: <a href=\"Practitioner/789\">Practitioner/789</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 271327008}\">Depressive disorder</span></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
