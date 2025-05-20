@@ -1,3 +1,6 @@
+Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $icd11-mms = http://id.who.int/icd/release/11/mms
+
 Profile: PrimaryDiagnosisCondition
 Parent: Condition
 Id: mental-health-condition
@@ -13,12 +16,12 @@ Description: "A Condition resource representing any primary mental health diagno
 
 * category 1..1 MS
 * category.coding 1..1
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category.coding.system = $condition-category
 * category.coding.code = #encounter-diagnosis
 * category.coding.display = "Encounter Diagnosis"
 
 * code 1..1 MS
-* code from http://id.who.int/icd/release/11/mms (preferred)
+* code.coding.system = $icd11-mms
 
 * subject 1..1 MS
 * subject only Reference(Patient)

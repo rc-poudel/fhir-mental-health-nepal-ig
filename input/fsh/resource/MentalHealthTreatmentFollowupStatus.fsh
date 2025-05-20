@@ -1,3 +1,5 @@
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+
 Profile: MentalHealthTreatmentFollowupStatus
 Parent: Observation
 Id: MentalHealthTreatmentFollowupStatus
@@ -7,7 +9,7 @@ Description: "A profile to capture a patient's compliance or follow-up status in
 * status = #final
 * category 1..1
 * category.coding 1..1
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/observation-category"
+* category.coding.system = $observation-category
 * category.coding.code = #social-history
 
 * code 1..1

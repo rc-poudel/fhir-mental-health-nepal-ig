@@ -40,8 +40,8 @@
       },
       "StructureDefinition-MentalHealthImprovementStatus.html" : "Mental Health Improvement Status",
       "StructureDefinition-MentalHealthReferralRequest.html" : "Mental Health Referral Request",
-      "StructureDefinition-MentalHealthTreatmentFollowupStatus.html" : "Mental Health Treatment Follow-up Status",
-      "StructureDefinition-mental-health-condition.html" : "Primary Diagnosis Condition with any ICD-11 Mental Health Code"
+      "StructureDefinition-mental-health-condition.html" : "Primary Diagnosis Condition with any ICD-11 Mental Health Code",
+      "StructureDefinition-MentalHealthTreatmentFollowupStatus.html" : "Mental Health Treatment Follow-up Status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -67,6 +67,20 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
       "oids" : ["2.16.840.1.113883.4.642.3.164"],
       "sources" : ["2.16.840.1.113883.4.642.3.164"],
+      "uses" : {
+      },
+      "StructureDefinition-mental-health-condition.html" : "Primary Diagnosis Condition with any ICD-11 Mental Health Code"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
       "StructureDefinition-mental-health-condition.html" : "Primary Diagnosis Condition with any ICD-11 Mental Health Code"
@@ -210,11 +224,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-mental-patient.html" : "Mental Health Patient",
       "StructureDefinition-MentalHealthImprovementStatus.html" : "Mental Health Improvement Status",
       "StructureDefinition-MentalHealthReferralRequest.html" : "Mental Health Referral Request",
-      "StructureDefinition-MentalHealthTreatmentFollowupStatus.html" : "Mental Health Treatment Follow-up Status",
-      "StructureDefinition-mental-health-condition.html" : "Primary Diagnosis Condition with any ICD-11 Mental Health Code"
+      "StructureDefinition-mental-health-condition.html" : "Primary Diagnosis Condition with any ICD-11 Mental Health Code",
+      "StructureDefinition-mental-patient.html" : "Mental Health Patient",
+      "StructureDefinition-MentalHealthTreatmentFollowupStatus.html" : "Mental Health Treatment Follow-up Status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

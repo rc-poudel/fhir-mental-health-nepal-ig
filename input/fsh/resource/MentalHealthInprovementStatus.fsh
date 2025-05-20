@@ -1,3 +1,6 @@
+Alias: $improvement-status-cs = http://example.org/fhir/CodeSystem/improvement-status
+Alias: $improvement-status-vs = http://example.org/fhir/ValueSet/improvement-status
+
 Profile: MentalHealthImprovementStatus
 Parent: Observation
 Id: MentalHealthImprovementStatus
@@ -11,8 +14,8 @@ Description: "A profile to capture the improvement status of a patient’s menta
 * code.coding ^slicing.discriminator.path = "code"
 * code.coding ^slicing.rules = #open
 * code.coding contains ImprovementStatusCode 0..1
-* code.coding[ImprovementStatusCode].system = "http://example.org/fhir/CodeSystem/improvement-status"
-* code.coding[ImprovementStatusCode].code from http://example.org/fhir/ValueSet/improvement-status (required)
+* code.coding[ImprovementStatusCode].system = $improvement-status-cs
+* code.coding[ImprovementStatusCode].code from $improvement-status-vs
 * subject 1..1
 * subject.reference 1..1
 * effective[x] only dateTime

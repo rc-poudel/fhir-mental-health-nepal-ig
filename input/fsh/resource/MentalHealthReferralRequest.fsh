@@ -1,3 +1,7 @@
+Alias: $servicerequest-category = http://terminology.hl7.org/CodeSystem/servicerequest-category
+Alias: $sct = http://snomed.info/sct
+
+
 Profile: MentalHealthReferralRequest
 Parent: ServiceRequest
 Id: MentalHealthReferralRequest
@@ -9,12 +13,12 @@ Description: "A profile for capturing referrals to mental health services, such 
 
 * category 1..1
 * category.coding 1..1
-* category.coding.system = "http://terminology.hl7.org/CodeSystem/servicerequest-category"
+* category.coding.system = $servicerequest-category
 * category.coding.code = #referral
 
 * code 1..1
 * code.coding 1..1
-* code.coding.system = "http://snomed.info/sct"
+* code.coding.system = $sct
 * code.coding.code = #306206005  // Referral to psychiatrist
 
 * subject 1..1
@@ -28,5 +32,5 @@ Description: "A profile for capturing referrals to mental health services, such 
 
 * reasonCode 1..1
 * reasonCode.coding 1..1
-* reasonCode.coding.system = "http://snomed.info/sct"
+* reasonCode.coding.system = $sct
 * reasonCode.coding.code = #271327008  // Depressive disorder

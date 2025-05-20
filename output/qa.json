@@ -6,14 +6,14 @@
   "status" : "active",
   "package-id" : "mentalhealth.fhir.ig",
   "ig-ver" : "1.0.1",
-  "date" : "Tue, 20 May, 2025 08:24:31 +0545",
-  "dateISO8601" : "2025-05-20T08:24:31+05:45",
-  "errs" : 37,
+  "date" : "Tue, 20 May, 2025 11:39:13 +0545",
+  "dateISO8601" : "2025-05-20T11:39:13+05:45",
+  "errs" : 32,
   "warnings" : 31,
   "hints" : 3,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 884046680
+  "maxMemory" : 733034048
 }

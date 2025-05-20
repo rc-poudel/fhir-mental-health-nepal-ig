@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 8, errors = 37, warn = 31, info = 3-->
+<!-- broken links = 8, errors = 32, warn = 31, info = 3-->
 <head>
   <title>FHIRMentalHealthIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -46,7 +46,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for FHIRMentalHealthIG</h1>
- <p>Generated Tue May 20 08:25:26 NPT 2025, FHIR version 4.0.1 for mentalhealth.fhir.ig#1.0.1 (canonical = <a href="https://fhir.health.np/mentalhealth">https://fhir.health.np/mentalhealth</a> (<a href="https://fhir.health.np/mentalhealth/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Tue May 20 11:40:03 NPT 2025, FHIR version 4.0.1 for mentalhealth.fhir.ig#1.0.1 (canonical = <a href="https://fhir.health.np/mentalhealth">https://fhir.health.np/mentalhealth</a> (<a href="https://fhir.health.np/mentalhealth/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.8.26</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = mentalhealth.fhir.ig, Canonical = https://fhir.health.np/mentalhealth</td></tr>
@@ -128,6 +128,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-condition-ver-status.html">ConditionVerificationStatus</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-condition-category.html">ConditionCategoryCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-condition-severity.html">Condition/DiagnosisSeverity</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-condition-stage.html">ConditionStage</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/clinicalimpression.html">ClinicalImpression</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-condition-stage-type.html">ConditionStageType</a>
@@ -141,7 +142,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 37, warn = 31, info = 3, broken links = 8, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 32, warn = 31, info = 3, broken links = 8, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -157,7 +158,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_CodeSystem-improvement-status"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/CodeSystem-improvement-status</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_Condition-example-primary-diagnosis"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Condition-example-primary-diagnosis</b></a></td><td><b>5</b></td><td><b>3</b></td><td><b>0</b></td>
+     <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_Condition-example-primary-diagnosis"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Condition-example-primary-diagnosis</b></a></td><td><b>4</b></td><td><b>3</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_Patient-ExamplePatient"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Patient-ExamplePatient</b></a></td><td><b>2</b></td><td><b>3</b></td><td><b>0</b></td>
@@ -174,8 +175,8 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_StructureDefinition-ethnic-code"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-ethnic-code</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_StructureDefinition-mental-health-condition"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-health-condition</b></a></td><td><b>4</b></td><td><b>4</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_StructureDefinition-mental-health-condition"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-health-condition</b></a></td><td><b>0</b></td><td><b>4</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_rcpoudel_Code_ig-fhir-mental-health_fsh-generated_resources_ValueSet-ethnic-code-vs"><b>/Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ValueSet-ethnic-code-vs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -312,9 +313,6 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    <tr style="background-color: #ffcccc">
      <td><b>Condition.verificationStatus (l36/c4)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'ConditionVerificationStatus' (http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1), and a coding from this value set is required) (codes = null#confirmed)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Condition.code (l20/c4)</b></td><td><b>error</b></td><td><b>Found a reference to a CodeSystem 'http://id.who.int/icd/release/11/mms' where a ValueSet belongs</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_ValueSet_NotFound_CS</span></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Condition&#8203;.code&#8203;.coding[0]&#8203;.system (l20&#8203;/c4)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://id.who.int/icd/release/11/mms' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span></td>
    </tr>
@@ -442,28 +440,16 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[10]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c55877)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[10]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c59035)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[11]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c57862)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[25]&#8203;.binding&#8203;.valueSet (l1&#8203;/c76242)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</span></td>
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[11]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c61020)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[1]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c104129)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[1]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c121016)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[2]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c104291)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[8]&#8203;.binding&#8203;.valueSet (l1&#8203;/c105046)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[8]&#8203;.binding</b></td><td><b>error</b></td><td><b>The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_BIND_NOT_VS</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[25]&#8203;.binding</b></td><td><b>error</b></td><td><b>The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_BIND_NOT_VS</span></td>
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[2]&#8203;.pattern&#8203;.ofType(CodeableConcept)&#8203;.coding[0] (l1&#8203;/c121178)</b></td><td><b>warning</b></td><td><b>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
 </table>
 <hr/>
@@ -682,28 +668,6 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
 </table>
 <hr/>
-<a name="SD_ED_BIND_NOT_VS"> </a>
-<h2>SD_ED_BIND_NOT_VS</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-mental-health-condition.html">fsh-generated/resources/StructureDefinition-mental-health-condition.json</a></td><td><b>The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-mental-health-condition.html">fsh-generated/resources/StructureDefinition-mental-health-condition.json</a></td><td><b>The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"> </a>
-<h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-mental-health-condition.html">fsh-generated/resources/StructureDefinition-mental-health-condition.json</a></td><td><b>Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-mental-health-condition.html">fsh-generated/resources/StructureDefinition-mental-health-condition.json</a></td><td><b>Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="Terminology_TX_NoValid_12"> </a>
 <h2>Terminology_TX_NoValid_12</h2>
  <table class="grid">
@@ -720,14 +684,6 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Condition-example-primary-diagnosis.html">fsh-generated/resources/Condition-example-primary-diagnosis.json</a></td><td><b>None of the codings provided are in the value set 'ConditionVerificationStatus' (http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1), and a coding from this value set is required) (codes = null#confirmed)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Terminology_TX_ValueSet_NotFound_CS"> </a>
-<h2>Terminology_TX_ValueSet_NotFound_CS</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Condition-example-primary-diagnosis.html">fsh-generated/resources/Condition-example-primary-diagnosis.json</a></td><td><b>Found a reference to a CodeSystem 'http://id.who.int/icd/release/11/mms' where a ValueSet belongs</b></td>
    </tr>
 </table>
 <hr/>

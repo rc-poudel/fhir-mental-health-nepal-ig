@@ -15,11 +15,11 @@ Description: "A FHIR Patient profile tailored for mental health contexts in Nepa
 * gender 1..1 MS
 * birthDate 1..1 MS
 
-* identifier 3..* MS
+* identifier 1..* MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
 
-* telecom 2..* MS
+* telecom 1..* MS
 * telecom.system 1..1 MS
 * telecom.value 1..1 MS
 * telecom.use MS

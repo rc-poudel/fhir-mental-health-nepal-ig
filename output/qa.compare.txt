@@ -1,13 +1,13 @@
 FHIRMentalHealthIG : Validation Results
 =========================================
 
-err = 37, warn = 31, info = 3
+err = 32, warn = 31, info = 3
 $--
 Generated $--. FHIR version $-- for mentalhealth.fhir.ig#$-- (canonical = https://fhir.health.np/mentalhealth)
  Build Errors : 8 / 8 / 0
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/CodeSystem-ethnic-code-cs : 0 / 2 / 2
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/CodeSystem-improvement-status : 2 / 2 / 2
- /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Condition-example-primary-diagnosis : 5 / 3 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Condition-example-primary-diagnosis : 4 / 3 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ImplementationGuide-mentalhealth.fhir.ig : 0 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/Patient-ExamplePatient : 2 / 3 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ServiceRequest-ExampleReferralToPsychiatrist : 9 / 1 / 1
@@ -15,7 +15,7 @@ Generated $--. FHIR version $-- for mentalhealth.fhir.ig#$-- (canonical = https:
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-MentalHealthReferralRequest : 0 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-MentalHealthTreatmentFollowupStatus : 0 / 1 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-ethnic-code : 0 / 1 / 1
- /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-health-condition : 4 / 4 / 1
+ /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-health-condition : 0 / 4 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/StructureDefinition-mental-patient : 0 / 0 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ValueSet-ethnic-code-vs : 0 / 1 / 1
  /Users/rcpoudel/Code/ig-fhir-mental-health/fsh-generated/resources/ValueSet-improvement-status-vs : 2 / 1 / 1
@@ -55,7 +55,6 @@ WARNING: Condition/example-primary-diagnosis: Condition.clinicalStatus.coding[0]
 ERROR: Condition/example-primary-diagnosis: Condition.clinicalStatus: None of the codings provided are in the value set 'Condition Clinical Status Codes' (http://hl7.org/fhir/ValueSet/condition-clinical|4.0.1), and a coding from this value set is required) (codes = null#active)
 WARNING: Condition/example-primary-diagnosis: Condition.verificationStatus.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 ERROR: Condition/example-primary-diagnosis: Condition.verificationStatus: None of the codings provided are in the value set 'ConditionVerificationStatus' (http://hl7.org/fhir/ValueSet/condition-ver-status|4.0.1), and a coding from this value set is required) (codes = null#confirmed)
-ERROR: Condition/example-primary-diagnosis: Condition.code: Found a reference to a CodeSystem 'http://id.who.int/icd/release/11/mms' where a ValueSet belongs
 WARNING: Condition/example-primary-diagnosis: Condition.code.coding[0].system: A definition for CodeSystem 'http://id.who.int/icd/release/11/mms' could not be found, so the code cannot be validated
 ERROR: Condition/example-primary-diagnosis: Condition.subject: Unable to resolve resource with reference 'Patient/example'
 ERROR: Condition.text.div: Hyperlink 'Patient/example' at 'div/p/a' for 'Patient/example' does not resolve
@@ -88,12 +87,8 @@ WARNING: StructureDefinition/ethnic-code: StructureDefinition.context[0]: Review
 == fsh-generated/resources/StructureDefinition-mental-health-condition.json ==
 WARNING: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[10].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[11].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[25].binding.valueSet: Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
 WARNING: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
 WARNING: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
-ERROR: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[8].binding.valueSet: Canonical URL 'http://id.who.int/icd/release/11/mms' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
-ERROR: StructureDefinition/mental-health-condition: StructureDefinition.differential.element[8].binding: The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)
-ERROR: StructureDefinition/mental-health-condition: StructureDefinition.snapshot.element[25].binding: The valueSet reference http://id.who.int/icd/release/11/mms on element Condition.code points to something that is not a value set (CodeSystem)
 == fsh-generated/resources/StructureDefinition-mental-patient.json ==
 == fsh-generated/resources/ValueSet-ethnic-code-vs.json ==
 WARNING: ValueSet/ethnic-code-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

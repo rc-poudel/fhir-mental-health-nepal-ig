@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EthnicCodeVS"] ; # 
   fhir:title [ fhir:v "Ethnic Code ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-05-20T08:23:51+05:45"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-20T11:38:44+05:45"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "https://rcp.com.np"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "https://rcp.com.np" ] ;
